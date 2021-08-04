@@ -315,7 +315,7 @@
  }
  
  .imgLadrillo {
-    background-image: url(Imagenes/pared_ladrillos_2.jpeg);
+    background-image: url(imagenes/pared_ladrillos_2.jpeg);
     background-size:cover;
     display: flex;
     flex-direction: column;
