@@ -216,22 +216,22 @@
 }
 
  .divServicio1 {
-    background-image: url(Imagenes/Diseño\ arquitectonico\ 2.jpg);
+    background-image: url(imagenes/Diseño\ arquitectonico\ 2.jpg);
     background-size: cover;
  }
  
  .divServicio2 {
-    background-image: url(Imagenes/construccion_administracion\ 2.jpg);
+    background-image: url(imagenes/construccion_administracion\ 2.jpg);
     background-size: cover;
  }
  
  .divServicio3 {
-    background-image: url(Imagenes/construccion_administracion\ 4.jpg);
+    background-image: url(imagenes/construccion_administracion\ 4.jpg);
     background-size: cover;
  }
  
  .divServicio4 {
-    background-image: url(Imagenes/interior\ designe\ 4.jpg);
+    background-image: url(imagenes/interior\ designe\ 4.jpg);
     background-size: cover;
     background-position: center;
  }
