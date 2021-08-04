@@ -1,0 +1,756 @@
+* {
+    box-sizing: border-box;
+}
+
+/*--------------- main(carousel) -------------*/
+
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.carousel-item img {
+    height: 100vh;
+}
+
+/*------------- main (contenedor) ----------- */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(5, auto);
+ 
+ 
+    grid-template-areas: "item1 item2"
+                         "item3 item4"
+                         "item5 item4"
+                         "item6 item7"
+                         "item6 item8"
+ }
+ 
+ .contenedor .item1 {
+    grid-area: item1;
+    height: 100%;
+ }
+ 
+ .contenedor .item1 img {
+    height: 100%;
+ }
+ 
+ .contenedor .item2 {
+    grid-area: item2;
+ }
+ 
+ .contenedor .item3 {
+    grid-area: item3;
+    display: flex;
+    flex-flow: row;
+ }
+ 
+ .contenedor .item3 img {
+    width: 50%;
+ }
+ 
+ 
+ .contenedor .item4 {
+    grid-area: item4;
+ }
+ 
+ .contenedor .item4 img {
+    height: 47%;
+ }
+ 
+ .contenedor .item5 {
+    grid-area: item5;
+    
+ }
+ 
+ .contenedor .item5 img {
+    height: 100%;
+ }
+ .contenedor .item6 {
+    grid-area: item6; 
+ }
+ 
+ .contenedor .item6 img {
+    height: 48.3%;
+ }
+ 
+ .contenedor .item7 {
+    grid-area: item7;
+    display: flex;
+    flex-flow: row;  
+ }
+ 
+ .contenedor .item7 img {
+    width: 50%;
+ }
+ 
+ .contenedor .item8 {
+    grid-area: item8;
+ }
+ 
+ .contenedor .item8 img {
+    height: 100%;
+ }
+ 
+ .contenedor img {
+    width: 100%;
+ }
+ 
+ .item2 h2 {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    text-transform: uppercase;
+ }
+ 
+ .item2 p {
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #7e7b7e;
+ }
+ 
+ .item2 .enlaceHome {
+    margin-top: 10%;
+ }
+
+ .enlaceHome:hover a {
+     color: black;
+ }
+ 
+ .item2 a {
+    text-decoration: none ;
+    text-transform: uppercase;
+    color: #7e7b7e;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 7%;
+    
+ }
+ 
+ .item3 h3,
+ .item7 h3 {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    color: #7e7b7e;
+ }
+ 
+ .item3 p,
+ .item7 p {
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #7e7b7e;
+ }
+ 
+ .item4 h3 {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 7%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #7e7b7e;
+    text-transform: uppercase;
+ }
+ 
+ .item4 p {
+    width: 80%;
+    margin-left: 7%;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #7e7b7e;
+ }
+ 
+ .item6 h3 {
+    width: 30%;
+    margin-top: 5%;
+    margin-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    color: #7e7b7e;
+    text-transform: uppercase;
+ }
+ 
+ .item6 p {
+    width: 91%;
+    margin-left: 5%;
+    margin-top: 10%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 25px;
+    color: #7e7b7e; 
+ }
+
+ /* -------------- index (aside) ------------ */
+ .h2Servicios {
+    color: #000000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+ .serviciosHome {
+    height: auto;  
+}
+
+ .divServicio1 {
+    background-image: url(Imagenes/Diseño\ arquitectonico\ 2.jpg);
+    background-size: cover;
+ }
+ 
+ .divServicio2 {
+    background-image: url(Imagenes/construccion_administracion\ 2.jpg);
+    background-size: cover;
+ }
+ 
+ .divServicio3 {
+    background-image: url(Imagenes/construccion_administracion\ 4.jpg);
+    background-size: cover;
+ }
+ 
+ .divServicio4 {
+    background-image: url(Imagenes/interior\ designe\ 4.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+
+.divServicio1,
+.divServicio2,
+.divServicio3,
+.divServicio4 {
+   min-height: 450px;
+}
+
+.divServicio1 h3,
+.divServicio2 h3,
+.divServicio3 h3,
+.divServicio4 h3 {
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+.divPS {
+    margin-top: 20%;
+    height: 200px ;
+}
+
+.divServicio1 p,
+.divServicio2 p,
+.divServicio3 p,
+.divServicio4 p {
+    
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.divServicio1 a,
+.divServicio2 a,
+.divServicio3 a,
+.divServicio4 a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.divServicio1 a:hover,
+.divServicio2 a:hover,
+.divServicio3 a:hover,
+.divServicio4 a:hover {
+    color: #ffffffb7;
+}
+
+.verMas {
+    margin-top: 10%;
+}
+
+/* ---------- index contacto --------------*/
+.h3Contacto {
+   color: #000000;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+}
+.contenedorAside {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;   
+ }
+ 
+ .iframe, .imgLadrillo{
+    width: 50%;
+ }
+ 
+ .imgLadrillo {
+    background-image: url(Imagenes/pared_ladrillos_2.jpeg);
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+ }
+ 
+ .imgLadrillo h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family:'Roboto', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #ffffff;   
+ }
+ 
+ .subcontenedorAside {
+    margin-top: 35%;
+    width: 100%;
+    height: 27%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ }
+ 
+ .itemAside {
+    width: 20%;
+    text-align: center;
+    height: 75%;
+ }
+ 
+ 
+ .itemAside h4 {
+    /* padding-bottom: 15px; */
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+ }
+ 
+ .itemAside p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+ }
+
+ /* ------------- index footer----------------- */
+
+ 
+
+
+/* ----------SECCION ESTUDIO------------ */
+
+.divTituloEstudio {
+   width: 78%;
+   margin: 0px auto;
+}
+
+.divTituloEstudio h1 {
+   font-size: 32px;
+   font-weight: 100;
+   color: #7e7b7e;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+   margin-bottom: 30px;
+}
+
+.estudioParrafos {
+   width: 78%;
+   margin: 0px auto;
+}
+.estudioImg {
+   width: 100%;
+   margin-bottom: 30px;
+}
+
+.asideEstudio {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   border: solid 1px coral;
+   width: 50%;
+   margin: 20px auto;
+}
+/* ---------SECCION PROYECTOS ------------- */
+
+/* ------------SECCION SERVICIOS ---------*/
+
+/*------ SECCION CONTACTO -------*/
+
+
+
+ /* -------------Media Q----------------------- */
+
+
+
+ @media only screen and (max-width: 475px) {
+
+    .item2 > h2 {
+        color: #000;
+    }
+
+    .item3 h3,
+    .item4 h3,
+    .item5 h3,
+    .item6 h3,
+    .item7 h3,
+    .item8 h3 {
+        color: #000;
+    }
+   
+    .contenedor .item3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .contenedor .item3 img {
+        width: 100%;
+    }
+    
+    .serviciosHome {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .subcontenedorAside {
+      
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ 
+    .itemAside {
+        width: auto;
+        text-align: center;
+        height: auto;
+        margin: 10px 0 10px 0;
+    }
+
+    aside {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .h3Contacto {
+      color: #000000;
+      margin-top: 100px;
+      font-weight: 100;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+    }
+
+    .estudioFooter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 150px;
+    }
+
+    .castetLogo {
+      width: 100%;
+      border: solid 1px cyan;
+   }
+
+   .letras {
+      margin-right: 10px;
+   }
+}
+
+@media only screen and (max-width: 768px) {
+   
+   .castetLogo1 {
+      width: 95%;
+      margin: 0px auto;
+      justify-content: space-between;
+   }
+
+   .carousel-inner {
+      height: 523px;
+   }
+
+   .carousel-item img {
+      height: 523px;
+   }
+
+   .contenedor {
+       
+         grid-template-areas:"item1 item1"
+                           "item2 item2"
+                           "item3 item3"
+                           "item4 item4"
+                           "item5 item5"
+                           "item6 item6"
+                           "item7 item7"
+                           "item8 item8"
+   }
+
+   .contenedor .item3 {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
+
+   .contenedor .item3 img {
+       width: 100%;
+   }
+
+
+   .h3Contacto {
+      color: #000000;
+      margin-top: 100px;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+      text-transform: uppercase;
+   }
+
+   .subcontenedorAside {
+
+       flex-direction: column;
+       justify-content: space-evenly;
+       align-items: center;
+   }
+
+   .itemAside {
+       width: auto;
+       text-align: center;
+       height: auto;
+       margin: 10px 0 10px 0;
+   }
+
+   .estudioFooter {
+      display: flex;
+      flex-direction: column;
+   }
+
+   /* .castetLogo {
+      width: 60%;
+      margin: 10px auto;
+   } */
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .contenedor {
+       
+        grid-template-areas:"item1 item1"
+                            "item2 item2"
+                            "item3 item3"
+                            "item4 item4"
+                            "item5 item5"
+                            "item6 item6"
+                            "item7 item7"
+                            "item8 item8"
+    }
+ 
+    .contenedor .item3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    .contenedor .item3 img {
+        width: 100%;
+    }
+
+    .subcontenedorAside {
+ 
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ 
+    .itemAside {
+        width: auto;
+        text-align: center;
+        height: auto;
+        margin: 10px 0 10px 0;
+    }
+   
+    .estudioFooter {
+      display: flex;
+      flex-direction: column;
+   }
+
+   /* .castetLogo {
+      width: 100%;
+      margin: 10px auto;
+      border: solid 1px red;
+   } */
+
+   .letras {
+      margin-right: 10px;
+   }
+
+   /* .legend {
+      width: 50%;
+      border: solid 1px yellowgreen
+   } */
+}
+
+/* -----------BEM GENERALES--------- */
+
+/* header */
+
+.brand--background {
+   background-color: black;
+   height: 40px;
+   margin: 0px 5px;
+   padding: 5px;
+}
+
+.brand__nombreBrand {
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+}
+
+.brand__simboloMas {
+   color: crimson;
+}
+
+.lineaLista__enlace--hover:hover {
+   border-bottom: solid 1px black;
+   margin-top: -5px;
+   font-weight: 600;
+   background-color: rgba(236, 236, 236, 0.50); 
+}
+
+/* footer */
+
+.estudioFooter--flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   background-color: black;
+   padding: 10px 15px;
+}
+
+.castetLogo--flex {
+
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   margin-top: 15px;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   background-color: #7e7b7e;
+   width: auto;
+   height: 50px;
+   margin-right: 11px;
+}
+
+.logo__letras {
+   font-family: 'Black Ops One', cursive;
+   font-size: 22px;
+   color: #000000;
+   text-transform: uppercase;
+   margin-top: 30%;
+   padding: 5px;
+}
+
+.legend--flex {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.legend__p1 {
+   color: #afaeaf;
+   text-transform: uppercase;
+   font-size: 20px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+   width: 100%;
+   text-align: center;
+   margin-bottom: 6px;
+}
+
+.legend__span {
+   color: red;
+   margin: 0px 5px;
+}
+
+.legend__p2 {
+   color: #7e7b7e;
+   text-transform: uppercase;
+   font-size: 10px;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+}
+
+.logosRedes--flex {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+.logosRedes {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   width: 10%;
+}
+
+i {
+   /* // color: rgb(207, 53, 53); */
+   color: crimson;
+   font-size: 50px;
+}
+
+/* modal */
+
+.cuadroModal__brand--background {
+   background-color: black;
+   height: 40px;
+   padding: 5px;
+}
+
+.cuadroModal__brand {
+   color: #ffffff;
+   font-family: 'Roboto', sans-serif;
+   font-weight: 700;
+}
+
+

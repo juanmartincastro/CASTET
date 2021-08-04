@@ -1,0 +1,473 @@
+
+// -------------------- NAV BARS -------------------------------
+
+ .brand--background {
+    background-color: black;
+    height: 40px;
+    margin: 0px 5px;
+    padding: 5px;
+
+    .brand__nombreBrand {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+
+    .brand__simboloMas {
+        color: crimson;
+    }
+ }
+
+ .lineaLista__enlace--hover:hover {
+    border-bottom: solid 1px black;
+    margin-top: -5px;
+    font-weight: 600;
+    // background-color: rgba(236, 236, 236, 0.510);
+    background-color: rgba(172, 172, 172, 0.330);   
+}
+
+// ------------- CAROUSELS ------------
+
+.carousel-inner--height {
+    height: 70vh;
+}
+
+.carousel-item__img {
+    height: 70vh;
+}
+
+
+//--------------Seccion Estudio---------------------
+
+.divTituloEstudio {
+
+    width: 75%;
+    margin: 0px auto;
+
+    h1 {
+    font-size: 32px;
+    font-weight: 100;
+    color: #7e7b7e;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    }
+}
+
+.estudioParrafos {
+
+    width: 75%;
+    margin: 0px auto;
+
+    Img {
+        width: 100%;
+        margin-bottom: 30px;
+        border: solid 1px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+        color: #7e7b7e;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px ;
+        margin-bottom: 30px;
+    }
+}
+
+.asideEstudio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 90px auto;
+}
+
+//---------------Seccion Proyectos------------------- 
+
+.galeriaProyectos--flex {
+    width: 99%;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px auto;
+
+    .galeriaProyectos__imgProyectos {
+        width: 20%;
+        height: 80%;
+        padding: 10px;
+    }
+
+}
+
+//--------------- seccion servicios ------------------
+
+.h1servicios--ubicacion{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 130px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+} 
+   
+.arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
+    width: 611px;
+    height: 474px;
+}
+
+#diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 250px;
+}
+
+.arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-left: 100px;
+}
+
+.arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
+    width: 40%;
+
+    .arquitectonico1__h2, .ejecutiva1__h2, .construccion1__h2, .designe1__h2 {
+        margin-bottom: 15px;
+        padding-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        color: #7e7b7e;
+    }
+
+    .arquitectonico1__h3, .ejecutiva1__h3, .construccion1__h3 {
+        padding: 0px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: #686568;
+    }
+
+    .arquitectonico1__p, .ejecutiva1__p, .construccion1__p, .designe1__p {
+        margin-bottom: 20px;
+        padding: 0px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #7e7b7e;
+    }
+}
+
+.ejecutiva1__ul {
+    margin-left: 20px;
+}
+
+//--------------- seccion contacto ------------------
+
+.mainContacto--height {
+    height: auto;
+
+    .divIframe__iframe{
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .divInfo--position {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+
+    .divInfo__item {
+            width: 30%;
+            text-align: center;
+            height: 195px;
+    }
+
+    .itemContacto { 
+
+        .itemContacto__h2 {
+                text-transform: uppercase;
+                
+        }
+
+        .itemContacto__p {
+                color: #7e7b7e;
+                width: 100%;
+        }
+    }
+}
+
+    .contactoTitulo--medidas { 
+        width: 100%; 
+        margin-top: 250px;
+        margin-bottom: 50px;
+        text-align: center;
+        color: #7e7b7e;
+        font-size: 20px;
+        
+        .contactoTitulo__h1 {
+            margin-bottom: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 100;
+        }
+
+        .contactoTitulo__p {
+            font-size: 18px;
+            padding: 1px 0px;
+        }
+    }
+
+}
+
+.formContacto--medidas {
+    width: 50%;
+    margin: 0px auto;
+    
+
+    .formContacto__inputForm {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        height: 50px;
+        border: solid 1px #b4b1b4;
+        border-radius: 4px; 
+    }
+       
+       .formContacto__inputForm1 {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        border: solid 1px #b4b1b4;
+        border-radius: 4px; 
+    }
+     
+       .desplegableForm--align {
+        text-align: center;
+    }
+     
+       .desplegableForm__selectForm--margin {
+        margin-bottom: 10px;
+        margin-top: 4px;
+    }
+       
+        .btn-dark {
+            margin-bottom: 50px;
+    }
+
+       .btn-dark__formBtn {
+        font-family:'Roboto', sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        text-transform: uppercase;
+        
+    }
+       
+       .btn-dark__formBtn:hover {
+        color: #c5c4c5;
+    }    
+}
+
+.modal-title {
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 5px;
+    border-radius: 4px;
+
+    .modal-title__span1 {
+        color:crimson
+    }
+}
+
+.modal-body {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+
+//------------------FOOTERS ------------------------- 
+
+.estudioFooter--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    padding: 10px 15px;
+ }
+ 
+ .castetLogo--flex {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+
+    .logo--flex {
+        display: flex;
+        align-items: center;
+        background-color: #7e7b7e;
+        width: auto;
+        height: 50px;
+        margin-right: 11px;
+ }
+
+    .logo__letras {
+        font-family: 'Black Ops One', cursive;
+        font-size: 22px;
+        color: #000000;
+        text-transform: uppercase;
+        margin-top: 30%;
+        padding: 5px;
+    }
+ }
+ 
+ .legend--flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .legend__p1 {
+        color: #afaeaf;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 6px;
+    }
+
+    .legend__span {
+        color: red;
+        margin: 0px 5px;
+    }
+     
+    .legend__p2 {
+        color: #7e7b7e;
+        text-transform: uppercase;
+        font-size: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+ }
+
+ .logosRedes--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+ }
+
+ .logosRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 10%;
+ }
+
+ i {
+    
+    // color: rgb(207, 53, 53);
+    color: crimson;
+    font-size: 50px;
+}
+
+//  --------- ERROR 404 -------------
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.error404 {
+    position: relative;
+    margin-top: -42px;
+    background-color: rgb(4, 4, 29);
+    height: 1011px;
+    
+
+    .error404__h1 {
+        position: absolute;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 220px;
+        font-weight: 700;
+        margin-left: 40%;
+        margin-top: 20%;
+
+        .fas {
+            height: 5px;
+        }
+    }
+
+    .error404__h2 {
+        position: absolute;
+        color: rgb(255, 200, 49);
+        font-family: 'Roboto', sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        margin-top: 34%;
+        margin-left: 35.5%;
+    }
+    
+    .error404__p {
+        position: absolute;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        margin-top: 39%;
+        margin-left: 30%;
+    }
+
+    .error404__git {
+        color: rgb(255, 220, 168);
+        margin-top: 2%;
+    }
+
+    .error404__inicio {
+        position: absolute;
+        margin-top: 43%;
+        margin-left: 47.3%;
+        color: rgb(248, 229, 176);
+        text-decoration: none;
+
+        .inicio {
+            // background-color: rgb(255, 200, 49);
+            // background-color: rgb(243, 154, 39);
+            background-color: rgb(4, 4, 29);
+            border-radius: 4px;
+            padding: 4px;
+            font-weight: 700;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 26px;
+            border: solid 2px rgb(248, 229, 176);
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+
+        .inicio:hover {
+            background-color: rgba(250, 201, 68, 0.829);
+        }
+    }
+
+    
+}
+
+.error404 h2:hover {
+    color: rgb(163, 30, 30);
+}
+
+
+
+
+
+
