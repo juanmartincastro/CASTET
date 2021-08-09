@@ -35,28 +35,35 @@
  .contenedor .item1 img {
     height: 100%;
  }
+
+ .item1 {
+    background-image: url(imagenes/Home_fotopareja.jpg);
+    background-size: cover;
+    background-position:-120px;
+ }
  
  .contenedor .item2 {
     grid-area: item2;
+    height: 100%;
  }
  
  .contenedor .item3 {
     grid-area: item3;
     display: flex;
     flex-flow: row;
+    height: 380px;
  }
  
  .contenedor .item3 img {
-    width: 50%;
+    width: 54%;
  }
- 
  
  .contenedor .item4 {
     grid-area: item4;
  }
  
  .contenedor .item4 img {
-    height: 47%;
+    height: 49%;
  }
  
  .contenedor .item5 {
@@ -110,7 +117,7 @@
  .item2 p {
     width: 80%;
     margin-left: 7%;
-    margin-top: 10%;
+    margin-top: 9%;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 100;
@@ -119,11 +126,13 @@
  }
  
  .item2 .enlaceHome {
-    margin-top: 10%;
+    margin-top: 5%;
+    margin-bottom: 2%;
  }
 
  .enlaceHome:hover a {
-     color: black;
+     color: silver;
+     color: rgba(255, 248, 220, 0.712);
  }
  
  .item2 a {
@@ -204,8 +213,9 @@
  /* -------------- index (aside) ------------ */
  .h2Servicios {
     color: #000000;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    margin-bottom: 50px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -228,6 +238,8 @@
  .divServicio3 {
     background-image: url(imagenes/construccion_administracion\ 4.jpg);
     background-size: cover;
+    
+    
  }
  
  .divServicio4 {
@@ -297,8 +309,8 @@
 /* ---------- index contacto --------------*/
 .h3Contacto {
    color: #000000;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
@@ -559,7 +571,7 @@ i {
    justify-content: space-evenly;
    align-items: center;
    width: 24%;
-   height: 550px;
+   height: 590px;
    border: solid 1px gray;
    border-radius: 10px;
    margin: 10px auto;
@@ -614,7 +626,7 @@ i {
    margin: 0px auto;
    border: solid 2px rgb(172, 172, 172);
    border-radius: 5px;
-   background-image: url(imagenes/interior\ designe\ 3.jpg);
+   background-image: url(imagenes/interior\ designe\ 6.png);
    background-size: cover;
    background-position: center;
 }
@@ -643,6 +655,7 @@ i {
    border: solid 1px grey;
    border-radius: 5px;
    padding: 5px;
+   margin-top: 30px;
    font-size: 10px;
    font-weight: 700;
 }
@@ -1044,27 +1057,64 @@ background-color: rgba(248, 237, 220, 0.445);
 
 @media only screen and (min-width: 769px)  {
 
-   .imgLadrillo__h3 {
-      margin-top: 60px;
+/*------------------------------------ "MAIN" */
+   h2 {
+      
+      color: rgba(255, 248, 220, 0.712);
+      color: rgb(201, 201, 201);
+      
+   }
+
+   .item2,
+   .item3,
+   .item4,
+   .item6,
+   .item7 {
+      background-image: linear-gradient(to right, black, gray);
+      background-image: linear-gradient(to right, black, rgb(80, 79, 79));
    }
    
-   .subcontenedorAside {
-
-       flex-direction: column;
-       justify-content: space-around;
-       align-items: center;
-       
-       margin-top: 55px;
-       height: 400px;
+   .item6 {
+      background-image: linear-gradient(to right, black, rgb(63, 62, 62));
    }
 
-   .itemAside {
-       width: auto;
-       text-align: center;
-       height: auto;
-       margin: 10px 0 10px 0;
-   }
+   /* .item6 {
+      background-image: linear-gradient(to right, black, rgb(80, 79, 79));
+   } */
 
+.item3 > div > h3,
+.item4 > h3,
+.item6 > h3,
+.item7 > div > h3 {
+color:  #7e7b7e;
+}
+
+.item3 > div > p,
+.item4 > p,
+.item6 > p,
+.item7 > div > p {
+color: rgb(177, 177, 177);
+
+}
+
+/*------------------------------------ "ASIDE" */
+
+aside {
+   background-image: linear-gradient(to right, black, gray);
+   padding-top: 50px;
+}
+
+/*----------------------------- titulo "SERVICIOS" */
+
+.h2Servicios {
+   width: 100%;
+   /* border: solid 1px black; */
+   padding: 50px ;
+   background-image: linear-gradient(to right, black, gray);
+   color: rgba(255, 248, 220, 0.712);
+}
+
+/*-------------------------------------------- CARDS */
    .prueba {
       display: flex;
       flex-direction: row;
@@ -1076,27 +1126,82 @@ background-color: rgba(248, 237, 220, 0.445);
    .prueba__div {
       width: 24%;
       background-color: rgba(194, 194, 194, 0.521);
+      background-image: linear-gradient(to top, black, gray, rgb(155, 155, 155));
+   }
+
+   .prueba__div:hover {
+      transform: scale(1.03);
    }
    
    .prueba__h3 {
       background-color: rgb(54, 48, 48);
       color: white;
+      color: rgb(224, 223, 223);
       border: solid 1px rgb(121, 112, 103);
       font-weight: 700;
    }
 
+   .prueba__img,
+   .prueba__img1,
+   .prueba__img2 {
+      border: solid 1px rgb(172, 172, 172);
+   }
+   
+
    .prueba__divPP {
-      color: rgb(54, 48, 48);
+      width: 90%;
+      color: rgb(202, 202, 202);
+      color: rgb(224, 223, 223);
    }
    
    .prueba__a {
       background-color: rgb(54, 48, 48);
       color: rgb(253, 253, 237);
    }
+
+   .prueba__a:hover {
+      color: rgb(219, 219, 219);
+   }
+
+   /*----------------------------- titulo "DONDE ENCONTRARNOS */
+
+   .h3Contacto {
+      padding: 50px ;
+      background-image: linear-gradient(to right, black, gray, rgb(241, 241, 241));
+      background-image: linear-gradient(to right, black, gray);
+      color: rgba(255, 248, 220, 0.712);
+      /* color: rgb(255, 248, 220); */
+      /* color: rgb(241, 236, 213); */
+
+   }
+
+   /*----------------------------- IFRAME E IMAGEN LADRILLO */
+
+   .imgLadrillo__h3 {
+      margin-top: 20px;
+   }
+
+   .subcontenedorAside {
+      justify-content: space-around;
+      width: 90%;
+      margin-left: 35px;
+      margin-top: 30px;
+   }
+   
+   .itemAside {
+      width: auto;
+      text-align: center;
+      height: auto;
+      margin: 10px 0 10px 0;
+  }
+
+  /*--------------------------------------------- FOOTER */
   
    .estudioFooter {
      display: flex;
      flex-direction: column;
+     background-image: linear-gradient(to right, black, gray);
+     background: black;
   }
 
   .estudioFooter {
@@ -1107,6 +1212,11 @@ background-color: rgba(248, 237, 220, 0.445);
 
   .logosRedes {
      width: 16%;
+  }
+
+  i {
+     color: rgb(158, 158, 158);
+     
   }
   
 }
