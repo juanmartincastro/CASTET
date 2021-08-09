@@ -4,7 +4,6 @@
 
 /*--------------- main(carousel) -------------*/
 
-
 .carousel-inner {
     height: 100vh;
 }
@@ -14,6 +13,7 @@
 }
 
 /*------------- main (contenedor) ----------- */
+
 .contenedor {
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -36,12 +36,6 @@
     height: 100%;
  }
 
- .item1 {
-    background-image: url(imagenes/Home_fotopareja.jpg);
-    background-size: cover;
-    background-position:-120px;
- }
- 
  .contenedor .item2 {
     grid-area: item2;
     height: 100%;
@@ -51,7 +45,7 @@
     grid-area: item3;
     display: flex;
     flex-flow: row;
-    height: 380px;
+    height: 375px;
  }
  
  .contenedor .item3 img {
@@ -67,13 +61,13 @@
  }
  
  .contenedor .item5 {
-    grid-area: item5;
-    
+    grid-area: item5;  
  }
  
  .contenedor .item5 img {
     height: 100%;
  }
+
  .contenedor .item6 {
     grid-area: item6; 
  }
@@ -238,8 +232,6 @@
  .divServicio3 {
     background-image: url(imagenes/construccion_administracion\ 4.jpg);
     background-size: cover;
-    
-    
  }
  
  .divServicio4 {
@@ -307,6 +299,7 @@
 }
 
 /* ---------- index contacto --------------*/
+
 .h3Contacto {
    color: #000000;
     margin-top: 50px;
@@ -314,8 +307,8 @@
     font-weight: 100;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-
 }
+
 .contenedorAside {
     margin-top: 100px;
     display: flex;
@@ -361,7 +354,6 @@
     text-align: center;
     height: 75%;
  }
- 
  
  .itemAside h4 {
     /* padding-bottom: 15px; */
@@ -415,17 +407,6 @@
    width: 50%;
    margin: 20px auto;
 }
-/* ---------SECCION PROYECTOS ------------- */
-
-/* ------------SECCION SERVICIOS ---------*/
-
-/*------ SECCION CONTACTO -------*/
-
-
-
-
-
-/* -----------BEM GENERALES--------- */
 
 /* header */
 
@@ -553,7 +534,6 @@ i {
    font-family: 'Roboto', sans-serif;
    font-weight: 700;
 }
-
 
 .prueba {
    display: flex;
@@ -907,10 +887,32 @@ aside {
    height: 100%;
 }
 
-            /* item 2 */
+/* ------------------------------- CONTENEDOR */
+
+.contenedor {
+      
+   grid-template-areas:"item1 item1"
+                       "item2 item2"
+                       "item3 item3"
+                       "item4 item4"
+                       "item5 item5"
+                       "item6 item6"
+                       "item7 item7"
+                       "item8 item8"
+}
+
+/*------------------------------- item 2 */
+
+.contenedor .item1 {
+   height: 310px;
+}
+
+.imgIndex {
+   height: 100%
+}
 
 .item2 {
-margin-bottom: 20px;
+margin-bottom: 10px;
 background-color: white;
 }
                
@@ -930,6 +932,8 @@ margin-bottom: 20px;
 .enlaceHome > a {
 margin-left: 7%;
 }
+
+/* --------------------- otros items */
 
 .item3 > div > h3,
 .item4 > h3,
@@ -1017,7 +1021,7 @@ background-color: rgba(248, 237, 220, 0.445);
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
+   height: auto;
 }
 
 .contenedor .item3 img {
@@ -1053,16 +1057,18 @@ background-color: rgba(248, 237, 220, 0.445);
    width: 50%;
 }
 
+i {
+   color: silver;
+}
+
 }
 
 @media only screen and (min-width: 769px)  {
 
 /*------------------------------------ "MAIN" */
    h2 {
-      
       color: rgba(255, 248, 220, 0.712);
       color: rgb(201, 201, 201);
-      
    }
 
    .item2,
@@ -1147,7 +1153,6 @@ aside {
       border: solid 1px rgb(172, 172, 172);
    }
    
-
    .prueba__divPP {
       width: 90%;
       color: rgb(202, 202, 202);
@@ -1216,7 +1221,6 @@ aside {
 
   i {
      color: rgb(158, 158, 158);
-     
   }
   
 }
