@@ -846,7 +846,6 @@ aside {
 
                /* donde encontrarnos */
 
-
 .contenedorAside {
    display: flex;
    flex-direction: column;
@@ -876,7 +875,8 @@ aside {
 }
 
 @media only screen and (min-width: 476px) and (max-width: 768px) {
-                 /* carousel */
+
+                        /* carousel */
 
 .carousel {
    height: 350px;
@@ -894,8 +894,8 @@ aside {
    height: 100%;
 }
 
-
             /* item 2 */
+
 .item2 {
 margin-bottom: 20px;
 background-color: white;
@@ -918,7 +918,6 @@ margin-bottom: 20px;
 margin-left: 7%;
 }
 
-
 .item3 > div > h3,
 .item4 > h3,
 .item6 > h3,
@@ -938,7 +937,6 @@ color: rgb(138, 117, 90);
 width: 86%;
 margin-bottom: 30px;
 color: rgb(151, 151, 151);
-
 text-align: justify;
 }
 
@@ -996,108 +994,92 @@ background-color: rgba(248, 237, 220, 0.445);
    border: solid 1px rgb(207, 179, 142);
 }
 
+.castetLogo1 {
+   width: 95%;
+   margin: 0px auto;
+   justify-content: space-between;
+}
 
+.contenedor .item3 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
 
+.contenedor .item3 img {
+   width: 100%;
+}
 
+.h3Contacto {
+   color: #000000;
+   margin-top: 100px;
+   font-weight: 500;
+   font-family: 'Roboto', sans-serif;
+   text-transform: uppercase;
+}
 
-  .castetLogo1 {
-     width: 95%;
-     margin: 0px auto;
-     justify-content: space-between;
-  }
+.subcontenedorAside {
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
 
-  /* .carousel-inner {
-     height: 523px;
-  }
+.itemAside {
+   width: auto;
+   text-align: center;
+   height: auto;
+   margin: 10px 0 10px 0;
+}
 
-  .carousel-item img {
-     height: 523px;
-  } */
-
-  .contenedor {
-      
-        grid-template-areas:"item1 item1"
-                            "item2 item2"
-                            "item3 item3"
-                            "item4 item4"
-                            "item5 item5"
-                            "item6 item6"
-                            "item7 item7"
-                            "item8 item8"
-  }
-
-  .contenedor .item3 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .contenedor .item3 img {
-      width: 100%;
-  }
-
-
-  .h3Contacto {
-     color: #000000;
-     margin-top: 100px;
-     font-weight: 500;
-     font-family: 'Roboto', sans-serif;
-     text-transform: uppercase;
-  }
-
-  .subcontenedorAside {
-
-      flex-direction: column;
-      justify-content: space-evenly;
-      align-items: center;
-  }
-
-  .itemAside {
-      width: auto;
-      text-align: center;
-      height: auto;
-      margin: 10px 0 10px 0;
-  }
-
-  .estudioFooter {
-     display: flex;
-     flex-direction: column;
-  }
-
-  /* .castetLogo {
-     width: 60%;
-     margin: 10px auto;
-  } */
+.logosRedes{ 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   /* border: solid 1px red; */
+   width: 50%;
+}
 
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
+@media only screen and (min-width: 769px)  {
+
+   .imgLadrillo__h3 {
+      margin-top: 60px;
+   }
+   
+   .subcontenedorAside {
+
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+       
+       margin-top: 55px;
+       height: 400px;
+   }
+
+   .itemAside {
+       width: auto;
+       text-align: center;
+       height: auto;
+       margin: 10px 0 10px 0;
+   }
 
    .prueba {
       display: flex;
       flex-direction: row;
-      flex-flow: wrap;
-      
+      justify-content: space-evenly;
+      width: 100%;
+      margin: 0px auto;
    }
 
    .prueba__div {
-      width: 48%;
-      /* background-color: rgba(201, 195, 195, 0.377);
-      background-color: rgba(105, 102, 102, 0.637); */
-      background-color: rgb(124, 40, 40);
-      background-color: rgb(194, 194, 194);
-   
+      width: 24%;
+      background-color: rgba(194, 194, 194, 0.521);
    }
    
-   
    .prueba__h3 {
-      /* background-color: rgba(105, 102, 102, 0.637);
-      background-color: rgba(206, 176, 133, 0.493); */
-      background-color: rgb(105, 16, 16);
-      background-color: rgba(214, 212, 212, 0.637);
       background-color: rgb(54, 48, 48);
-      color: rgb(253, 253, 237);
       color: white;
       border: solid 1px rgb(121, 112, 103);
       font-weight: 700;
@@ -1111,46 +1093,20 @@ background-color: rgba(248, 237, 220, 0.445);
       background-color: rgb(54, 48, 48);
       color: rgb(253, 253, 237);
    }
-   
-   
-   .contenedor .item3 {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       align-items: center;
-   }
-
-   .contenedor .item3 img {
-       width: 100%;
-   }
-
-   .subcontenedorAside {
-
-       flex-direction: column;
-       justify-content: space-evenly;
-       align-items: center;
-   }
-
-   .itemAside {
-       width: auto;
-       text-align: center;
-       height: auto;
-       margin: 10px 0 10px 0;
-   }
   
    .estudioFooter {
      display: flex;
      flex-direction: column;
   }
 
-  /* .castetLogo {
-     width: 100%;
-     margin: 10px auto;
-     border: solid 1px red;
-  } */
-
-  .letras {
-     margin-right: 10px;
+  .estudioFooter {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
   }
 
+  .logosRedes {
+     width: 16%;
+  }
+  
 }
