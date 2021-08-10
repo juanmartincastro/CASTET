@@ -1,7 +1,7 @@
 
 /* ----------SECCION ESTUDIO------------ */
 
-/* .brand--background {
+
 
 * {
     box-sizing: border-box;
@@ -9,17 +9,17 @@
 
 /*--------------- main(carousel) -------------*/
 
-/* .carousel-inner {
+ .carousel-inner {
     height: 100vh;
 }
 
 .carousel-item img {
     height: 100vh;
-} */
+} 
 
 /*------------- main (contenedor) ----------- */
 
-/* .contenedor {
+ .contenedor {
     display: grid;
     grid-template-columns: repeat(2, 50%);
     grid-template-rows: repeat(5, auto);
@@ -207,10 +207,11 @@
     font-weight: 100;
     line-height: 25px;
     color: #7e7b7e; 
- } */
+ } 
 
  /* -------------- index (aside) ------------ */
- /* .h2Servicios {
+
+  .h2Servicios {
     color: #000000;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -300,11 +301,11 @@
 
 .verMas {
     margin-top: 10%;
-} */
+} 
 
 /* ---------- index contacto --------------*/
 
-/* .h3Contacto {
+ .h3Contacto {
    color: #000000;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -370,7 +371,7 @@
  .itemAside p {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
- } */
+ } 
 
  /* ------------- index footer----------------- */
 
@@ -379,7 +380,7 @@
 
 /* ----------SECCION ESTUDIO------------ */
 
-/* .divTituloEstudio {
+ .divTituloEstudio {
    width: 78%;
    margin: 0px auto;
 }
@@ -409,12 +410,13 @@
    border: solid 1px coral;
    width: 50%;
    margin: 20px auto;
-} */
+} 
 
 /* header */
 
-/* .brand--background {
->>>>>>> 8935f528141899b44f51ae9524762ca80a159b38
+>>>>>>>> 8935f528141899b44f51ae9524762ca80a159b38
+
+ .brand--background {
    background-color: black;
    height: 40px;
    margin: 0px 5px;
@@ -437,13 +439,11 @@
    font-weight: 600;
    background-color: rgba(236, 236, 236, 0.50); 
 
-}  */
-
-/* } */
+}  
 
 /* footer */
 
-/* .estudioFooter--flex {
+ .estudioFooter--flex {
    display: flex;
    flex-direction: row;
    justify-content: space-between;
@@ -526,11 +526,11 @@ i {
 
    color: crimson;
    font-size: 50px;
-} */
+} 
 
 /* modal */
 
-/* .cuadroModal__brand--background {
+ .cuadroModal__brand--background {
    background-color: black;
    height: 40px;
    padding: 5px;
@@ -605,8 +605,8 @@ i {
    border-radius: 5px;
    background-image: url(imagenes/construccion_administracion_1.jpg);
    background-size: cover;
-} */
-/* 
+} 
+
 .prueba__img3 {
    width: 95%;
    min-height: 280px;
@@ -645,16 +645,17 @@ i {
    margin-top: 30px;
    font-size: 10px;
    font-weight: 700;
-} */
- /* 8935f528141899b44f51ae9524762ca80a159b38 */
+} 
+
+ >>>>>>>>> 8935f528141899b44f51ae9524762ca80a159b38 
 
  /* -------------Media Q----------------------- */
 
- /* @media only screen and (max-width: 475px) {
+  @media only screen and (max-width: 475px) {
 
                /* carousel */
 
-/* .carousel {
+ .carousel {
    height: 250px;
 }
 
@@ -668,12 +669,12 @@ i {
 
 .carousel-item > img {
    height: 100%;
-} */ 
+}  
 
 
          /* h3, p y bg generales */
    
-/* .item3 > div > h3,
+.item3 > div > h3,
 .item4 > h3,
 .item6 > h3,
 .item7 > div > h3 {
@@ -698,7 +699,7 @@ text-align: justify;
 .item6,
 .item7 {
 background-color: black;
-} */
+} 
 
             /* item 2 */
 .item2 {
@@ -1231,5 +1232,6 @@ aside {
      color: rgb(158, 158, 158);
   }
   
-/* >>>>>>> 8935f528141899b44f51ae9524762ca80a159b38 */
+>>> 8935f528141899b44f51ae9524762ca80a159b38
+
 }
