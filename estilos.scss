@@ -1,7 +1,7 @@
 
 // -------------------- NAV BARS -------------------------------
 
- .brand--background {
+.brand--background {
     background-color: black;
     height: 40px;
     margin: 0px 5px;
@@ -30,320 +30,13 @@
 
 .carousel-inner--height {
     height: 70vh;
+    width: 100%;
 }
 
 .carousel-item__img {
     height: 70vh;
+    width: 100%;
 }
-//----------------------------------------------- INDEX -------------------------------------
-
-
-//----------------------------- SECCION ESTUDIO --------------------------
-// -----------------------------------------------------------------------
-
-.divTituloEstudio {
-
-    width: 75%;
-    margin: 0px auto;
-
-    h1 {
-    font-size: 38px;
-    font-weight: 100;
-    color: #7e7b7e;
-    color: #a1a0a1;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    }
-}
-
-.estudioParrafos {
-
-    width: 75%;
-    margin: 0px auto;
-
-    img {
-        width: 100%;
-        height: 750px;
-        margin-bottom: 30px;
-        border: solid 1px #a1a0a1;
-    }
-
-    p {
-        color: #7e7b7e;
-        color: #a1a0a1;
-        color:silver;
-        font-family: 'Roboto', sans-serif;
-        font-size: 14px ;
-        text-align: justify;
-        padding-bottom: 20px;
-    }
-}
-
-.asideEstudio {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    // width: 50%;
-    // margin: 90px auto;
-}
-
-//--------------------------- SECCION PROYECTOS ------------------------- 
-// ----------------------------------------------------------------------
-.mainProyectos {
-    border: solid 1px black;
-    background-image: linear-gradient(to top, black, rgb(54, 54, 54), gray);
-}
-
-.galeriaProyectos--flex {
-    width: 99%;
-    display: flex;
-    flex-flow: row wrap;
-    margin: 20px auto;
-    
-
-    .galeriaProyectos__imgProyectos {
-        width: 20%;
-        height: 80%;
-        padding: 10px;
-        
-    }
-}
-
-//--------------------------- SECCION SERVICIOS --------------------------
-// -----------------------------------------------------------------------
-.main_Servicios {
-    background-image: linear-gradient(to left, black, gray);
-}
-
-.h1servicios--ubicacion{
-    position: absolute;
-    margin-left: 24%;
-    margin-top: 130px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-} 
-   
-.arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
-    width: 611px;
-    height: 474px;
-}
-
-#diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;
-    margin-top: 250px;
-    background-image: linear-gradient(to left, black, gray);
-}
-
-.arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-    justify-content: space-evenly;
-    width: 40%;
-    padding-left: 100px;
-}
-
-.arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
-    width: 40%;
-
-    .arquitectonico1__h2, .ejecutiva1__h2, .construccion1__h2, .designe1__h2 {
-        margin-bottom: 15px;
-        padding-left: 30px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 30px;
-        font-weight: 200;
-        color: #7e7b7e;
-        color: #979497;
-        color: silver;
-        
-        
-        
-        
-    }
-
-    .arquitectonico1__h3, .ejecutiva1__h3, .construccion1__h3 {
-        padding: 0px 30px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 20px;
-        color: #686568;
-        // color: #979497;
-        color: #5e5e5e;
-        
-        
-    }
-
-    .arquitectonico1__p, .ejecutiva1__p, .construccion1__p, .designe1__p {
-        margin-bottom: 20px;
-        padding: 0px 30px;
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
-        color: #7e7b7e;
-        color: #8d8c8d;
-        
-        
-    }
-}
-
-.ejecutiva1__ul {
-    margin-left: 20px;
-    color: #8d8c8d;
-}
-
-//-------------------------- SECCION CONTACTO ---------------------------
-// ----------------------------------------------------------------------
-
-.asideContacto {
-    background-image: linear-gradient(to bottom, black, gray);
-}
-
-.mainContacto--height {
-    height: auto;
-    background-image: linear-gradient(to bottom, black, gray);
-
-    .divIframe__iframe{
-        width: 100%;
-        margin-bottom: 0px;
-    }
-
-    .divInfo--position {
-        position: absolute;
-        padding-top: 60px;
-        width: 100%;
-        height: auto;
-        display: flex;
-        flex-flow: row;
-        justify-content: space-evenly;
-        align-items: flex-end;
-        background-image: linear-gradient(to top, black, gray);
-
-    .divInfo__item {
-            width: 30%;
-            text-align: center;
-            height: 195px;
-    }
-
-    .itemContacto { 
-
-        .itemContacto__h2 {
-                text-transform: uppercase;
-                
-        }
-
-        .itemContacto__p {
-                color: #7e7b7e;
-                width: 100%;
-        }
-    }
-}
-
-    .contactoTitulo--medidas { 
-        width: 100%; 
-        margin-top: 250px;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        text-align: center;
-        color: #7e7b7e;
-        font-size: 20px;
-        background-color: black;
-
-        .contactoTitulo__h1 {
-            margin-bottom: 15px;
-            font-family: 'Roboto', sans-serif;
-            font-size: 24px;
-            font-weight: 100;
-            text-transform: uppercase;
-        }
-
-        .contactoTitulo__p {
-            font-size: 18px;
-            padding: 1px 0px;
-        }
-    }
-
-}
-
-.formContacto--medidas {
-    width: 50%;
-    margin: 0px auto;
-    // background-image: linear-gradient(to left, black, gray);
-    
-
-    .formContacto__inputForm {
-        width: 100%;
-        margin-top: 5px;
-        margin-bottom: 20px;
-        height: 50px;
-        border: solid 1px #b4b1b4;
-        border-radius: 4px; 
-    }
-       
-       .formContacto__inputForm1 {
-        width: 100%;
-        margin-top: 5px;
-        margin-bottom: 10px;
-        border-radius: 2px;
-        border: solid 1px #b4b1b4;
-        border-radius: 4px; 
-    }
-     
-       .desplegableForm--align {
-        text-align: center;
-    }
-     
-       .desplegableForm__selectForm--margin {
-        margin-bottom: 10px;
-        margin-top: 4px;
-        background-color: black;
-        color: silver;
-
-        
-    }
-       
-        .btn-dark {
-            margin-bottom: 50px;
-    }
-
-       .btn-dark__formBtn {
-        font-family:'Roboto', sans-serif;
-        font-size: 12px;
-        color: #ffffff;
-        text-transform: uppercase;
-        
-    }
-       
-       .btn-dark__formBtn:hover {
-        color: #c5c4c5;
-    }    
-}
-
-.modal-title {
-    background-color: black;
-    color: white;
-    height: 40px;
-    padding: 5px;
-    border-radius: 4px;
-
-    .modal-title__span1 {
-        color:crimson
-    }
-}
-
-.modal-body {
-    font-family:'Roboto', sans-serif;
-    font-weight: 700;
-}
-
-span {
-    color:silver
-}
-// --------------------------------------------------------------------
-// --------------------------------------------------------------------
-
 
 //-------------------------------- FOOTERS ---------------------------- 
 
@@ -432,8 +125,389 @@ span {
     // color: rgb(207, 53, 53);
     color: crimson;
     font-size: 40px;
-    
 }
+
+//---------------------------------------- PAGINA INDEX -------------------------------------------------------
+
+.divTituloEstudio {
+
+    width: 75%;
+    margin: 0px auto;
+
+    h1 {
+    font-size: 38px;
+    font-weight: 100;
+    color: #7e7b7e;
+    color: #a1a0a1;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    }
+}
+
+.estudioParrafos {
+
+    width: 75%;
+    margin: 0px auto;
+
+    img {
+        width: 100%;
+        height: 750px;
+        margin-bottom: 30px;
+        border: solid 1px #a1a0a1;
+    }
+
+    p {
+        color: #7e7b7e;
+        color: #a1a0a1;
+        color:silver;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px ;
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+}
+
+.asideEstudio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+//---------------------------------- PAGINA PROYECTOS -----------------------------------------------------
+
+.mainProyectos {
+    border: solid 1px black;
+    background-image: linear-gradient(to top, black, rgb(54, 54, 54), gray);
+}
+
+.banner::before {
+    height: 93vh;
+    width: 100vw;
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0, 0.3);
+}
+
+.banner > img {
+    height: 93vh;
+    width: 100vw;
+    background: rgba(0,0,0, 0.7);
+    margin: 0px auto;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.bannerGradient {
+    background: linear-gradient(100deg, rgba(255, 145, 0, 0.514) 25%, rgba(209, 202, 136, 0.705) 50%, rgba(255, 145, 0, 0.514) 75%);
+    background-repeat: repeat;
+    animation: gradient 5s linear infinite;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin-top: 40vh;
+    
+    h2 {
+        font-size: 80px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        color: rgb(226, 209, 183);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: - 90rem 0;
+    }
+
+    75% {
+        background-position: 0 0;
+    }
+}
+
+.galeriaProyectos--flex {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.contenedorPro {
+    width: 23%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+figure {
+    position:relative;
+    height: 190px;
+    width: 350px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 15px 25px rgb(204, 203, 203);
+    box-shadow: 0px 10px 25px rgb(177, 175, 175);
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(94, 91, 91, 0.589);
+    transition: all 1s ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+    h3 {
+    margin-top: 80px;
+    color: white;
+    transition: all 500ms ease-out;
+    text-transform: uppercase;
+    font-size: 18px;
+    }
+}
+
+figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+//------------------------------------ PAGINA SERVICIOS -------------------------------------------------------
+
+.main_Servicios {
+    background-image: linear-gradient(to left, black, gray);
+}
+
+.h1servicios--ubicacion{
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 130px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+} 
+   
+.arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
+    width: 611px;
+    height: 474px;
+}
+
+#diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-top: 250px;
+    background-image: linear-gradient(to left, black, gray);
+}
+
+.arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    width: 40%;
+    padding-left: 100px;
+}
+
+.arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
+    width: 40%;
+
+    .arquitectonico1__h2, .ejecutiva1__h2, .construccion1__h2, .designe1__h2 {
+        margin-bottom: 15px;
+        padding-left: 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: 200;
+        color: #7e7b7e;
+        color: #979497;
+        color: silver;
+    }
+
+    .arquitectonico1__h3, .ejecutiva1__h3, .construccion1__h3, .designe1__h3 {
+        padding: 0px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        color: #686568;
+        // color: #979497;
+        color: #5e5e5e; 
+    }
+
+    .arquitectonico1__p, .ejecutiva1__p, .construccion1__p, .designe1__p {
+        margin-bottom: 20px;
+        padding: 0px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        color: #7e7b7e;
+        color: #8d8c8d;
+    }
+}
+
+.ejecutiva1__ul {
+    margin-left: 20px;
+    color: #8d8c8d;
+}
+
+//------------------------------------ PAGINA CONTACTO ------------------------------------------------------
+
+
+.asideContacto {
+    background-image: linear-gradient(to bottom, black, gray);
+}
+
+.mainContacto--height {
+    height: auto;
+    background-image: linear-gradient(to bottom, black, gray);
+
+    .divIframe__iframe{
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .divInfo--position {
+        position: absolute;
+        padding-top: 60px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-flow: row;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        background-image: linear-gradient(to top, black, gray);
+
+    .divInfo__item {
+            width: 30%;
+            text-align: center;
+            height: 195px;
+    }
+
+    .itemContacto { 
+
+        .itemContacto__h2 {
+                text-transform: uppercase;
+                
+        }
+
+        .itemContacto__p {
+                color: #7e7b7e;
+                width: 100%;
+        }
+    }
+}
+
+    .contactoTitulo--medidas { 
+        width: 100%; 
+        margin-top: 250px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+        color: #7e7b7e;
+        font-size: 20px;
+        background-color: black;
+
+        .contactoTitulo__h1 {
+            margin-bottom: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 24px;
+            font-weight: 100;
+            text-transform: uppercase;
+        }
+
+        .contactoTitulo__p {
+            font-size: 18px;
+            padding: 1px 0px;
+        }
+    }
+}
+
+.formContacto--medidas {
+    width: 50%;
+    margin: 0px auto;
+    // background-image: linear-gradient(to left, black, gray);
+    
+
+    .formContacto__inputForm {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        height: 50px;
+        border: solid 1px #b4b1b4;
+        border-radius: 4px; 
+    }
+       
+       .formContacto__inputForm1 {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-radius: 2px;
+        border: solid 1px #b4b1b4;
+        border-radius: 4px; 
+    }
+     
+       .desplegableForm--align {
+        text-align: center;
+    }
+     
+       .desplegableForm__selectForm--margin {
+        margin-bottom: 10px;
+        margin-top: 4px;
+        background-color: black;
+        color: silver;
+    }
+       
+        .btn-dark {
+            margin-bottom: 50px;
+    }
+
+       .btn-dark__formBtn {
+        font-family:'Roboto', sans-serif;
+        font-size: 12px;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+       
+       .btn-dark__formBtn:hover {
+        color: #c5c4c5;
+    }    
+}
+
+.modal-title {
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 5px;
+    border-radius: 4px;
+
+    .modal-title__span1 {
+        color:crimson
+    }
+}
+
+.modal-body {
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+span {
+    color:silver
+}
+
+// --------------------------------------------------------------------
 
 //  --------- ERROR 404 -------------
 
@@ -522,30 +596,33 @@ span {
 //     color: rgb(163, 30, 30);
 // }
 
-// ---------------------------------------------------------------------------------------------
-
+// --------------------------------------- MEDIA QUERIES
+// -----------------------------------------------------
 
 @media only screen and (min-width: 476px) and (max-width: 768px) {
 
 .navbar {
-   
     width: 100%;
 }
 
 .carousel {
 height: 350px;
+width: 100%;
 }
 
 .carousel-inner {
 height: 100%;
+width: 100%;
 }
 
 .carousel-item {
 height: 100%;
+width: 100%;
 }
 
 .carousel-item > img {
 height: 100%;
+width: 100%;
 }
 
 /* ------------------------------- MAIN */
@@ -573,7 +650,6 @@ height: 100%;
         
 
         .contenedor__item2__h2 {
-            
             width: 90%;
             margin: 0px auto;
             margin-top: 40px;
@@ -582,7 +658,7 @@ height: 100%;
         }
 
         .contenedor__item2__p {
-            width: 90%;
+            width: 100%;
             margin: 0px auto;
             margin-top: 40px;
             text-align: justify;
@@ -663,11 +739,14 @@ height: 100%;
 
         .contenedor2__item5__imgCrystal {
             width: 100%;
+            height: 366px;
         }
     }
 
     .contenedor2__div {
         width: 100%;
+        height: 366px;
+        
 
         .contenedor2__div__h3 {
             width: 90%;
@@ -964,8 +1043,9 @@ margin: 10px 0 10px 0;
 
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1400px) {
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
 
+    // ---------------------NAV BAR, CAROUSEL, FOOTER
     .navbar {
        
         width: 100%;
@@ -986,21 +1066,50 @@ margin: 10px 0 10px 0;
     .carousel-item > img {
     height: 100%;
     }
+
+    .logosRedes{ 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 10%;
+        }
+        
+        i {
+        color: silver;
+        }
     
-    /* ------------------------------- MAIN */
+    .castetLogo1 {
+    width: 95%;
+    margin: 0px auto;
+    justify-content: space-between;
+    }
+    
+    .subcontenedorAside {
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    
+    .itemAside {
+    width: auto;
+    text-align: center;
+    height: auto;
+    margin: 10px 0 10px 0;
+    }
+    
+    /* ------------------------------- PAGINA INDEX */
     
     .contenedor {
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
         width: 100%;
-    
+        
         .contenedor__item1 {
             width: 100%;
             
-    
             .contenedor__item1__imgIndex {
                 width: 100%;
-                margin-top: 40px;
+                height: 100%;
             }
         }
     
@@ -1009,8 +1118,8 @@ margin: 10px 0 10px 0;
             flex-direction: column;
             width: 100%;
             height: auto;
+            background-image: linear-gradient(to right, black, rgb(80, 79, 79));
             
-    
             .contenedor__item2__h2 {
                 
                 width: 90%;
@@ -1018,6 +1127,7 @@ margin: 10px 0 10px 0;
                 margin-top: 40px;
                 font-size: 32px;
                 text-transform: uppercase;
+                color: rgb(201, 201, 201);
             }
     
             .contenedor__item2__p {
@@ -1025,21 +1135,30 @@ margin: 10px 0 10px 0;
                 margin: 0px auto;
                 margin-top: 40px;
                 text-align: justify;
+                font-family: 'Roboto', sans-serif;
+                color:  #777777;
+                line-height: 28px;
             }
     
         }
     
         .contenedor__item2__enlaceHome {
-            width: 10%;
+            width: 15%;
             margin-left: 5%;
-            margin-top: 30px;
+            margin-top: 20px;
+            margin-bottom: 20px;
             
-    
             .contenedor__item2__enlaceHome__a {
                 text-decoration: none;
-                color: black;
                 text-transform: uppercase;
+                color: #7e7b7e;
+                color:  #505050;
+                font-family: 'Roboto', sans-serif;
                 font-size: 12px;
+            }
+
+            .contenedor__item2__enlaceHome__a:hover {
+                color: rgba(255, 248, 220, 0.712);
             }
         }
     }
@@ -1047,20 +1166,30 @@ margin: 10px 0 10px 0;
     .contenedor1 {
         width: 100%;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         
-    
+       
         .contenedor1__item3 {
             width: 100%;
-    
+            height: 366px;
+            display: flex;
+            flex-direction: row;
+            
+            
             .contenedor1__item3__div {
-                width: 100%;
-    
+                width: 85%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                background-image: linear-gradient(to right, black, rgb(80, 79, 79));
+                
+                
                 .contenedor1__item3__div__h3 {
                     width: 90%;
                     margin: 0px auto;
                     text-transform: uppercase;
                     margin-top: 40px;
+                    color:  #505050;
                 }
     
                 .contenedor1__p {
@@ -1069,50 +1198,67 @@ margin: 10px 0 10px 0;
                     margin-top: 20px;
                     margin-bottom: 40px;
                     text-align: justify;
+                    color: rgb(177, 177, 177);
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 200;
+                    font-size: 15px;
+                    line-height: 30px;
                 }
             }
     
             .contenedor1__item3__div1 {
                 width: 100%;
-                height: 1000px;
+                height: 100%;
+                
     
                 .contenedor1__item3__div1__imgAm {
                     width: 100%;
+                    height: 100%;
                 }
             }
         }
     
         .contenedor1__item4 {
             width: 100%;
+            height: 366px;
+            
     
             .contenedor1__item4__imgCk {
                 width: 100%;
+                height: 100%;
             }
         }
     }
     
     .contenedor2 {
         width: 100%;
+        height: 366px;
         display: flex;
-        flex-direction: column-reverse;
+        flex-direction: row;
         
-    
         .contenedor2__item5 {
             width: 100%;
+            height: 100%;
     
             .contenedor2__item5__imgCrystal {
                 width: 100%;
+                height: 100%;
             }
         }
     
         .contenedor2__div {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-image: linear-gradient(to right, black, rgb(80, 79, 79));
     
             .contenedor2__div__h3 {
                 width: 90%;
                 margin: 0px auto;
                 margin-top: 40px;
                 text-transform: uppercase;
+                color:  #505050;
             }
     
             .contenedor2__p {
@@ -1121,43 +1267,56 @@ margin: 10px 0 10px 0;
                 margin-top: 20px;
                 margin-bottom: 40px;
                 text-align: justify;
+                color: rgb(177, 177, 177);
+                font-family: 'Roboto', sans-serif;
+                line-height: 30px;
             }
         } 
     }
     
     .contenedor3 {
         width: 100%;
+        height: 366px;
         display: flex;
-        flex-direction:column-reverse;
-    
+        flex-direction:row;
+        
         .contenedor3__item6 {
             width: 100%;
-    
+            
             .contenedor3__item6__imgCp {
                 width: 100%;
-            
+                height: 100%;
             }
         }
     
         .contenedor3__item7 {
             width: 100%;
-    
+            display: flex;
+            flex-direction: row;
+           
             .contenedor3__item7__div {
                 width: 100%;
     
                 .contenedor3__item7__div__imgDg {
                     width: 100%;
+                    height: 100%;
                 }
             }
     
             .contenedor3__item7__p {
                 width: 100%;
-               
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                // background-color: rgb(51, 51, 51);
+                background-image: linear-gradient(to right, rgb(46, 45, 45), rgb(80, 79, 79));
+                
                 .contenedor3__item7__p__h3 {
                     width: 90%;
                     margin: 0px auto;
                     margin-top: 40px;
                     text-transform: uppercase;
+                    color:  #505050;
                 }
     
                 .contenedor3__item7__pp {
@@ -1166,6 +1325,9 @@ margin: 10px 0 10px 0;
                     margin-top: 40px;
                     margin-bottom: 40px;
                     text-align: justify;
+                    color: rgb(177, 177, 177);
+                    font-family: 'Roboto', sans-serif;
+                    line-height: 30px;
                 }
             }
         }
@@ -1173,17 +1335,23 @@ margin: 10px 0 10px 0;
     
     .contenedor4 {
         width: 100%;
+        height: 366px;
         display: flex;
-        flex-direction: column;
-    
+        flex-direction: row;
+        
         .contenedor4__div {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            background-image: linear-gradient(to right, black, rgb(70, 67, 67));
     
             .contenedor4__div__h3 {
                 width: 90%;
                 margin: 0px auto;
                 margin-top: 40px;
                 text-transform: uppercase;
+                color:  #505050;
             }
     
             .contenedor4__div__p {
@@ -1191,7 +1359,10 @@ margin: 10px 0 10px 0;
                     margin: 0px auto;
                     margin-top: 40px;
                     margin-bottom: 40px;
-                    text-align: justify;    
+                    text-align: justify;
+                    color: rgb(177, 177, 177);
+                    font-family: 'Roboto', sans-serif;
+                    line-height: 30px;  
             }
         }
     
@@ -1200,6 +1371,7 @@ margin: 10px 0 10px 0;
     
             .contenedor4__item8__imgJs {
                 width: 100%;
+                height: 100%;
             }
         }
     }
@@ -1210,129 +1382,169 @@ margin: 10px 0 10px 0;
         display: flex;
         flex-direction: column;
         width: 100%;
+        background-image: linear-gradient(to right, black, gray);
     
-        
         .divVariables {
     
             .h2Servicios {
                 text-transform: uppercase;
-                padding-top: 50px;
-                padding-bottom: 50px;
+                font-family: 'Roboto', sans-serif;
+                padding-top: 90px;
+                padding-bottom: 90px;
+                color: rgba(255, 248, 220, 0.712);
             }
         }
     
         .prueba {
             display: flex;
-            flex-direction: column;
+            flex-wrap: wrap ;
+            justify-content: space-evenly;
             width: 100%;
+            background-image: linear-gradient(to right, black, gray);
     
             .prueba__div {
                 display: flex;
                 flex-direction: column;
-                width: 100%;
-                height: 500px;
+                justify-content: space-between;
+                width: 45%;
+                height: 600px;
                 margin-bottom: 25px;
                 background-color: rgba(248, 237, 220, 0.5);
                 background-color: rgba(248, 237, 220, 0.438);
-                border: solid 1px rgb(226, 197, 159);
+                // border: solid 1px rgb(226, 197, 159);
+                border: solid 1px rgb(99, 97, 97);
+                border: solid 1px rgb(131, 130, 130);
+                
+                .prueba__divCard {
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    background-image: linear-gradient(to top, black, rgb(90, 90, 90));     
+                }
                 
                 .prueba__h3 {
-                    background-color: rgba(105, 102, 102, 0.637);
-                    background-color: rgba(206, 176, 133, 0.493);
-                    background-color: rgba(202, 179, 146, 0.61);
+                    width: 90%;
+                    margin: 0px auto;
                     color: rgb(253, 253, 237);
                     color: white;
-                    border: solid 1px rgb(207, 179, 142);
-                    font-weight: 700;
-                    text-align: center;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    text-align: left;
                 }
     
                 .prueba__img {
-                    width: 80%;
-                    height: 350px;
+                    width: 100%;
+                    height: 50%;
                     margin: 0px auto;
-                    background-image: url(imagenes/diseño_arquitectonico.jpg);
+                    background: rgba(0,0,0, 0.4) url(imagenes/diseño_arquitectonico.jpg);
                     background-size: cover;
+                    background-blend-mode: darken;
                 }
                 
                 .prueba__img1 {
-                    width: 80%;
-                    height: 350px;
+                    width: 100%;
+                    height: 50%;
                     margin: 0px auto;
-                    background-image: url(imagenes/direccion_de_obra.jpg);
+                    background: rgba(0,0,0, 0.4) url(imagenes/direccion_de_obra.jpg);
                     background-size: cover;
+                    background-blend-mode: darken;
                 }
     
                 .prueba__img2 {
-                    width: 80%;
-                    height: 350px;
+                    width: 100%;
+                    height: 50%;
                     margin: 0px auto;
-                    background-image: url(imagenes/construccion_administracion_1.jpg);
+                    background: rgba(0,0,0, 0.4) url(imagenes/construccion_administracion_1.jpg);
                     background-size: cover;
+                    background-blend-mode: darken;
                     background-position: center;
                 }
     
                 .prueba__img3 {
-                    width: 80%;
-                    height: 350px;
+                    width: 100%;
+                    height: 50%;
                     margin: 0px auto;
-                    background-image: url(imagenes/interior_6.png);
+                    background: rgba(0,0,0, 0.4) url(imagenes/interior_8.jpg);
                     background-size: cover;
+                    background-blend-mode: darken;
                     background-position: center;
                 }
     
                 .prueba__divP {
+                    width: 90%;
+                    margin: 0px auto;
                     margin-top: 10px;
+                    
     
                     .prueba__divPP {
-                        color: rgb(160, 138, 108);
-                        text-align: center; 
+                        color: rgb(177, 173, 173);
+                        text-align: left; 
                     }
                 }
     
                 .prueba__a {
+                    width: 90%;
                     padding: 5px;
                     margin: 0px auto;
                     margin-top: 10px;
                     background-color: rgba(206, 176, 133, 0.493);
                     background-color: rgba(202, 179, 146, 0.61);
+                    background-color: rgba(151, 142, 129, 0.61);
+                    background-color: rgba(88, 88, 88, 0.61);
+                    
                     color: rgb(253, 253, 237);
                     color: white;
-                    border: solid 1px rgb(207, 179, 142);
+                    border-radius: 5px;
                     text-decoration: none;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                }
+
+                .prueba__a:hover {
+                    background-color: rgb(97, 95, 95);
                 }
                 
+            }
+
+            .prueba__div:hover {
+                transform: scale(1.04);
             }
         }
     }
     
     .h3Contacto {
         color: #000000;
-        margin-top: 50px;
-        margin-bottom: 50px;
+        padding-top: 90px;
+        padding-bottom: 90px;
         font-weight: 500;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
+        color: rgba(255, 248, 220, 0.712);
     }
     
     .contenedorAside {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
+        height: 350px;
     
         .iframe {
             width: 100%;
-            margin-top: 20px;
+            height: 350px;
         }
     
         .imgLadrillo {
-            height: 500px;
+            height: 100%;
             width: 100%;
-            background-image: url(imagenes/pared_ladrillos.jpeg);
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
+
+            .imgFondo {
+                height: 350px;
+                width: 100%;
+            }
     
             .imgLadrillo__h3 {
                 text-align: center;
@@ -1363,47 +1575,366 @@ margin: 10px 0 10px 0;
             }
         }
     }
+/* ------------------------------- PAGINA ESTUDIO */
+// rgb(233, 232, 232)
+.mainEstudio {
+    background-image: linear-gradient(to top, black, gray); 
+    border-bottom:  1px solid black;
     
-    .logosRedes{ 
+
+    .bannerEstudio::before {
+        height: 93vh;
+        width: 100%;
+        content: '';
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+    .bannerEstudio > img {
+        height: 93vh;
+        width: 100%;
+        background: rgba(0,0,0, 0.7);
+        margin: 0px auto;
+        background-size: cover;
+        background-blend-mode: darken;
+        
+    }
+    
+    .bannerGradientEstudio {
+        background: linear-gradient(100deg, rgba(255, 145, 0, 0.514) 25%, rgba(209, 202, 136, 0.705) 50%, rgba(255, 145, 0, 0.514) 75%);
+
+        background: linear-gradient(100deg, rgba(121, 112, 103, 0.514) 25%, rgba(65, 64, 58, 0.705) 50%, rgba(121, 112, 103, 0.514) 75%);
+        background-repeat: repeat;
+        animation: gradient 5s linear infinite;
+        position: absolute;
+        width: 100%;
+        height: 90px;
+        text-align: center;
+        margin-top: 40vh;
+        
+        h2 {
+            font-size: 80px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: rgb(245, 241, 237);
+
+            span {
+                color:rgb(219, 0, 44)
+            } 
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: - 90rem 0;
+        }
+    
+        75% {
+            background-position: 0 0;
+        }
+    }
+
+    .divTituloEstudio {
+        margin-top: 50px ;
+        
+        .tituloEstudio {
+            color: rgb(3, 3, 3);
+            color: silver;
+        }
+    }
+
+    .estudioParrafos {
+    
+        img {
+            height: 500px;
+            border: solid 1px rgb(216, 216, 216);
+        }
+    }
+}
+
+
+/* ------------------------------- PAGINA PROYECTOS */
+
+.banner::before {
+    height: 93vh;
+    width: 100vw;
+    content: '';
+    position: absolute;
+    background: rgba(0,0,0, 0.3);
+}
+
+.banner > img {
+    height: 93vh;
+    width: 100vw;
+    background: rgba(0,0,0, 0.7);
+    margin: 0px auto;
+    background-size: cover;
+    background-blend-mode: darken;
+
+}
+
+.bannerGradient {
+    background: linear-gradient(100deg, rgba(255, 145, 0, 0.514) 25%, rgba(209, 202, 136, 0.705) 50%, rgba(255, 145, 0, 0.514) 75%);
+    background-repeat: repeat;
+    animation: gradient 5s linear infinite;
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin-top: 40vh;
+    
+    h2 {
+        font-size: 80px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        color: rgb(226, 209, 183);
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: - 90rem 0;
+    }
+
+    75% {
+        background-position: 0 0;
+    }
+}
+
+/* ------------------------------- PAGINA SERVICIOS */
+
+#diseño_arquitectonico--flex {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        /* border: solid 1px red; */
-        width: 50%;
-        }
+        width: 100%;
+
+        .arquitectonico {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0;
+            width: 45%;
+            
         
-        i {
-        color: silver;
-        }
+            .arquitectonico__img {
+                height: 300px;
+                width: 100%;
+            }
+
+            #carouselDiseño {
+                height: 300px;
+                margin-top: 45px;
+            }
         
-    
-    
-    
-    
-    .castetLogo1 {
-    width: 95%;
-    margin: 0px auto;
-    justify-content: space-between;
+            .arquitectonico__video {
+                margin-top: 25px;
+                height: 300px;
+                width: 100%;
+            }
+        }
+
+        .arquitectonico1 {
+            width: 45%;
+
+            .arquitectonico1__h2 {
+                padding: 0;
+                text-align: right;
+                color: rgb(221, 216, 206);
+            }
+
+            .arquitectonico1__h3 {
+                padding: 0;
+                text-align: right;
+                color: rgb(221, 216, 206);
+            }
+            
+            .arquitectonico1__p {
+                font-size: 16px;
+                text-align: justify;
+                padding: 0;
+                color: silver;
+            }
+        }
     }
-    
-    .subcontenedorAside {
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+
+    #direccion_de_obra_ejecutiva--flex {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .ejecutiva {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0;
+            width: 45%;
+
+            .ejecutiva__img {
+                height: 300px;
+                width: 100%;
+            }
+
+            #carouselDireccion {
+                height: 300px;
+                margin-top: 45px;
+            }
+        
+            .ejecutiva__video1 {
+                margin-top: 25px;
+                height: 300px;
+                width: 100%;
+            }
+        }
+
+        .ejecutiva1 {
+            width: 45%;
+
+            .ejecutiva1__h2 {
+                padding: 0;
+                color: white;
+                color: rgb(221, 216, 206);
+            }
+
+            .ejecutiva1__h3 {
+                padding: 0;
+                color: rgb(221, 216, 206);
+            }
+
+            .ejecutiva1__p {
+                font-size: 16px;
+                text-align: justify;
+                padding: 0;
+                color: silver;
+            }
+
+            .ejecutiva1__ul {
+                color: silver;
+                padding: 0;
+            }
+        }
     }
-    
-    .itemAside {
-    width: auto;
-    text-align: center;
-    height: auto;
-    margin: 10px 0 10px 0;
+
+    #construccion_administracion--flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .construccion {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0;
+            width: 45%;
+            
+        
+            .construccion__img {
+                height: 300px;
+                width: 100%;
+            }
+
+            #carouselConstruccion {
+                height: 300px;
+                margin-top: 25px;
+            }
+        
+            .construccion__video2 {
+                margin-top: 25px;
+                height: 300px;
+                width: 100%;
+            }
+        }
+
+        .construccion1 {
+            width: 45%;
+
+            .construccion1__h2 {
+                padding: 0;
+                text-align: right;
+                color: white;
+                color: rgb(221, 216, 206);
+            }
+
+            .construccion1__h3 {
+                padding: 0;
+                text-align: right;
+                color: rgb(221, 216, 206);
+            }
+            
+            .construccion1__p {
+                font-size: 16px;
+                text-align: justify;
+                padding: 0;
+                color: silver;
+            }
+        }
     }
-    
-    
-    
+
+    #interior_designe--flex {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        width: 100%;
+
+        .designe {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 0;
+            width: 45%;
+
+            .designe__img {
+                height: 300px;
+                width: 100%;
+            }
+
+            #carouselDesigne {
+                height: 300px;
+                margin-top: 45px;
+            }
+        
+            .designe__video3 {
+                margin-top: 25px;
+                height: 300px;
+                width: 100%;
+            }
+        }
+
+        .designe1 {
+            width: 45%;
+
+            .designe1__h2 {
+                padding: 0;
+                color: rgb(221, 216, 206);
+            }
+            
+            .designe1__h3 {
+                padding: 0;
+                text-align: left;
+                color: rgb(221, 216, 206);
+            }
+
+            .designe1__p {
+                font-size: 16px;
+                text-align: justify;
+                padding: 0;
+                color: silver;
+            }
+        }
+    }
 }
 
-@media only screen and (min-width: 1401px)  {
+@media only screen and (min-width: 1201px)  {
 
     .carousel {
         height: 650px;
@@ -1643,7 +2174,6 @@ h2 {
 
 /* titulo servicios aside index */
 .h2Servicios {
-    color: #000000;
     padding-top: 50px;
     margin-bottom: 50px;
     font-weight: 100;
@@ -1913,32 +2443,253 @@ h2 {
     padding-bottom: 50px;
     margin-top: -11px;
     background-image: linear-gradient(to top, black, gray);
-     
+}
+
+/* ------------------------------- PAGINA SERVICIOS */
+
+#diseño_arquitectonico--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, gray);
+    
+    .arquitectonico {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        width: 45%;
+        
+        .arquitectonico__img {
+            height: 300px;
+            width: 80%;
+        }
+
+        #carouselDiseño {
+            height: 300px;
+            margin-top: 45px;
+            width: 80%;
+        }
+    
+        .arquitectonico__video {
+            height: 300px;
+            width: 80%;
+            margin-top: 45px;
+            
+        }
+    }
+
+    .arquitectonico1 {
+        width: 45%;
+
+        .arquitectonico1__h2 {
+            padding: 0;
+            color: white;
+            color: rgb(221, 216, 206);
+            text-transform: uppercase;
+        }
+
+        .arquitectonico1__h3 {
+            padding: 0;
+            margin-top: 60px;
+            color: rgb(221, 216, 206);
+        }
+        
+        .arquitectonico1__p {
+            font-size: 16px;
+            text-align: justify;
+            padding: 0;
+            color: silver;
+        }
+    }
+}
+
+#direccion_de_obra_ejecutiva--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: linear-gradient(to top, black, gray);
+
+    .ejecutiva {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        width: 45%;
+    
+        .ejecutiva__img {
+            height: 300px;
+            width: 80%;
+        }
+
+        #carouselDireccion {
+            height: 300px;
+            margin-top: 45px;
+            width: 80%;
+        }
+    
+        .ejecutiva__video1 {
+            margin-top: 25px;
+            height: 300px;
+            width: 80%;
+        }
+    }
+
+    .ejecutiva1 {
+        width: 45%;
+
+        .ejecutiva1__h2 {
+            padding: 0;
+            color: rgb(221, 216, 206);
+            text-transform: uppercase;
+        }
+
+        .ejecutiva1__h3 {
+            padding: 0;
+            margin-top: 60px;
+            color: rgb(221, 216, 206);
+        }
+
+        .ejecutiva1__p {
+            font-size: 16px;
+            text-align: justify;
+            padding: 0;
+            color: silver;
+        }
+
+        .ejecutiva1__ul {
+            color: silver;
+            padding: 0;
+        }
+    }
+}
+
+#construccion_administracion--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    background-image: linear-gradient(to bottom, black, gray);
+
+    .construccion {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        width: 45%;
+        
+        .construccion__img {
+            height: 300px;
+            width: 80%;
+        }
+
+        #carouselConstruccion {
+            height: 300px;
+            margin-top: 25px;
+            width: 80%;
+        }
+    
+        .construccion__video2 {
+            margin-top: 25px;
+            height: 300px;
+            width: 80%;
+        }
+    }
+
+    .construccion1 {
+        width: 45%;
+
+        .construccion1__h2 {
+            padding: 0;
+            margin-bottom: 30px;
+            color: rgb(221, 216, 206);
+            text-transform: uppercase;
+        }
+
+        .construccion1__h3 {
+            padding: 0;
+            margin-top: 60px;
+            color: rgb(221, 216, 206);
+        }
+        
+        .construccion1__p {
+            font-size: 16px;
+            text-align: justify;
+            padding: 0;
+            color: silver;
+        }
+    }
+}
+
+#interior_designe--flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to top, black, gray);
+    
+    .designe {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        width: 45%;
+
+        .designe__img {
+            height: 300px;
+            width: 80%;
+        }
+
+        #carouselDesigne {
+            height: 300px;
+            margin-top: 45px;
+            width: 80%;
+        }
+    
+        .designe__video3 {
+            margin-top: 25px;
+            height: 300px;
+            width: 80%;
+        }
+    }
+
+    .designe1 {
+        width: 45%;
+
+        .designe1__h2 {
+            padding: 0;
+            margin-bottom: 30px;
+            color: rgb(221, 216, 206);
+            text-transform: uppercase;
+        }
+        
+        .designe1__h3 {
+            padding: 0;
+            text-align: left;
+            margin-top: 95px;
+            color: rgb(221, 216, 206);
+        }
+
+        .designe1__p {
+            font-size: 16px;
+            text-align: justify;
+            padding: 0;
+            color: silver;
+        }
+    }
+}
+
+#diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
+    
+    padding-top: 250px;
+    margin-top: 0px
 }
 
 }
-  
-  
-  
-  
-  
-  
-    
-        
-
-            
-
-            
-        
-    
-        
-    
-        
-    
-        
-
-
-
-
-
-
