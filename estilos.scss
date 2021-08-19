@@ -183,7 +183,7 @@
 
 .banner::before {
     height: 93vh;
-    width: 100vw;
+    width: 99.9%;
     content: '';
     position: absolute;
     background: rgba(0,0,0, 0.3);
@@ -191,7 +191,7 @@
 
 .banner > img {
     height: 93vh;
-    width: 100vw;
+    width: 99.9%;
     background: rgba(0,0,0, 0.7);
     margin: 0px auto;
     background-size: cover;
@@ -203,7 +203,7 @@
     background-repeat: repeat;
     animation: gradient 5s linear infinite;
     position: absolute;
-    width: 100%;
+    width: 99.9%;
     height: 90px;
     text-align: center;
     margin-top: 40vh;
@@ -625,16 +625,19 @@ height: 100%;
 width: 100%;
 }
 
-/* ------------------------------- MAIN */
+/* ------------------------------- PAGINA INICIO */
+main {
+    background-color: rgba(100, 97, 95, 0.836);
+}
 
 .contenedor {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
-
+    background-color: white;
+    
     .contenedor__item1 {
         width: 100%;
-        
 
         .contenedor__item1__imgIndex {
             width: 100%;
@@ -648,7 +651,6 @@ width: 100%;
         width: 100%;
         height: auto;
         
-
         .contenedor__item2__h2 {
             width: 90%;
             margin: 0px auto;
@@ -658,20 +660,21 @@ width: 100%;
         }
 
         .contenedor__item2__p {
-            width: 100%;
+            width: 90%;
             margin: 0px auto;
             margin-top: 40px;
             text-align: justify;
+            font-family: 'Roboto', sans-serif;
+            line-height: 30px;
         }
 
     }
 
     .contenedor__item2__enlaceHome {
-        width: 10%;
+        width: 15%;
         margin-left: 5%;
         margin-top: 30px;
         
-
         .contenedor__item2__enlaceHome__a {
             text-decoration: none;
             color: black;
@@ -685,11 +688,11 @@ width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-    
+    background-color: white;
 
     .contenedor1__item3 {
         width: 100%;
-
+        
         .contenedor1__item3__div {
             width: 100%;
 
@@ -712,7 +715,7 @@ width: 100%;
         .contenedor1__item3__div1 {
             width: 100%;
             height: 500px;
-
+            
             .contenedor1__item3__div1__imgAm {
                 width: 100%;
             }
@@ -732,11 +735,11 @@ width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column-reverse;
-    
+    background-color: white;
 
     .contenedor2__item5 {
         width: 100%;
-
+        
         .contenedor2__item5__imgCrystal {
             width: 100%;
             height: 366px;
@@ -745,9 +748,8 @@ width: 100%;
 
     .contenedor2__div {
         width: 100%;
-        height: 366px;
+        height: 216px;
         
-
         .contenedor2__div__h3 {
             width: 90%;
             margin: 0px auto;
@@ -769,19 +771,19 @@ width: 100%;
     width: 100%;
     display: flex;
     flex-direction:column-reverse;
+    background-color: white;
 
     .contenedor3__item6 {
         width: 100%;
-
+        
         .contenedor3__item6__imgCp {
             width: 100%;
-        
         }
     }
 
     .contenedor3__item7 {
         width: 100%;
-
+        
         .contenedor3__item7__div {
             width: 100%;
 
@@ -815,7 +817,8 @@ width: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
-
+    background-color: white;
+    
     .contenedor4__div {
         width: 100%;
 
@@ -840,108 +843,150 @@ width: 100%;
 
         .contenedor4__item8__imgJs {
             width: 100%;
+            border-bottom: solid 20px rgb(36, 36, 36);
         }
     }
 }
 
-// aside index
+// aside inicio
 
-.aside__index {
+.aside__inicio {
     display: flex;
     flex-direction: column;
     width: 100%;
+    background-color: rgba(83, 82, 78, 0.836);
+    background-color: rgb(36, 36, 36);
 
-    
-    .divVariables {
-
-        .h2Servicios {
+    .bannerGradientInicio {
+        background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
+        background-repeat: repeat;
+        animation: gradient 5s linear infinite;
+        width: 99.9%;
+        height: 135px;
+        
+        h2 {
+            color: #000000;
+            font-weight: 500;
+            font-family: 'Roboto', sans-serif;
             text-transform: uppercase;
+            text-align: center;
             padding-top: 50px;
-            padding-bottom: 50px;
+            padding-bottom: 36px ;
+            color: rgb(231, 231, 231);
+            border-top: solid 16px black;
+            border-bottom: solid 16px black;
         }
+        
     }
 
     .prueba {
         display: flex;
         flex-direction: column;
         width: 100%;
+        margin-top: 20px;
 
         .prueba__div {
             display: flex;
             flex-direction: column;
             width: 100%;
             height: 500px;
-            margin-bottom: 25px;
-            background-color: rgba(248, 237, 220, 0.5);
-            background-color: rgba(248, 237, 220, 0.438);
-            border: solid 1px rgb(226, 197, 159);
+            margin-bottom: 20px;
+            background-color: rgb(36, 36, 36);
             
+            .prueba__divCard {
+                width: 100%;
+                height: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                background-image: linear-gradient(to top, black, rgb(90, 90, 90));     
+            }
+
             .prueba__h3 {
-                background-color: rgba(105, 102, 102, 0.637);
-                background-color: rgba(206, 176, 133, 0.493);
-                background-color: rgba(202, 179, 146, 0.61);
+                width: 90%;
+                margin: 0px auto;
                 color: rgb(253, 253, 237);
                 color: white;
-                border: solid 1px rgb(207, 179, 142);
-                font-weight: 700;
-                text-align: center;
+                font-weight: 500;
+                text-transform: uppercase;
+                text-align: left;
             }
 
             .prueba__img {
-                width: 80%;
+                width: 100%;
                 height: 350px;
                 margin: 0px auto;
-                background-image: url(imagenes/diseño_arquitectonico.jpg);
+                margin-top: 20px;
+                background: rgba(0,0,0, 0.2) url(imagenes/i/bannerCastet10.jpg);
+                background-position: center;
                 background-size: cover;
+                background-blend-mode: darken;
             }
             
             .prueba__img1 {
-                width: 80%;
+                width: 100%;
                 height: 350px;
                 margin: 0px auto;
-                background-image: url(imagenes/direccion_de_obra.jpg);
+                background:rgba(0,0,0, 0.2) url(imagenes/direccion_de_obra.jpg);
                 background-size: cover;
+                background-blend-mode: darken;
             }
 
             .prueba__img2 {
-                width: 80%;
+                width: 100%;
                 height: 350px;
                 margin: 0px auto;
-                background-image: url(imagenes/construccion_administracion_1.jpg);
-                background-size: cover;
+                background:rgba(0,0,0, 0.2) url(imagenes/construcción1.jpg);
                 background-position: center;
+                background-size: cover;
+                background-blend-mode: darken;
             }
 
             .prueba__img3 {
-                width: 80%;
+                width: 100%;
                 height: 350px;
                 margin: 0px auto;
-                background-image: url(imagenes/interior_6.png);
+                background:rgba(0,0,0, 0.2) url(imagenes/interior.jpg);
+                background-position-y: 350px;
                 background-size: cover;
-                background-position: center;
+                background-blend-mode: darken;
             }
 
             .prueba__divP {
+                width: 90%;
+                margin: 0px auto;
                 margin-top: 10px;
-
+            
                 .prueba__divPP {
-                    color: rgb(160, 138, 108);
-                    text-align: center; 
+                    color: rgb(177, 173, 173);
+                    text-align: left; 
                 }
             }
 
             .prueba__a {
+                width: 90%;
                 padding: 5px;
                 margin: 0px auto;
                 margin-top: 10px;
                 background-color: rgba(206, 176, 133, 0.493);
                 background-color: rgba(202, 179, 146, 0.61);
+                background-color: rgba(151, 142, 129, 0.61);
+                background-color: rgba(88, 88, 88, 0.61);
+                
                 color: rgb(253, 253, 237);
                 color: white;
-                border: solid 1px rgb(207, 179, 142);
+                border-radius: 5px;
                 text-decoration: none;
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 700;
             }
-            
+
+            .prueba__a:hover {
+                background-color: rgb(97, 95, 95);
+            }
+        
         }
     }
 }
@@ -959,45 +1004,58 @@ width: 100%;
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 20px;
 
     .iframe {
         width: 100%;
+        height: 350px;
         margin-top: 20px;
     }
 
     .imgLadrillo {
         height: 500px;
         width: 100%;
-        background-image: url(imagenes/pared_ladrillos.jpeg);
+        background: rgba(0,0,0, 0.3) url(imagenes/i/bannerCastet.jpeg);
         background-size: cover;
+        background-position: center;
         display: flex;
         flex-direction: column;
-        justify-content: space-evenly;
-
+        justify-content: space-evenly;      
+        background-blend-mode: darken;
+        
         .imgLadrillo__h3 {
             text-align: center;
             text-transform: uppercase;
-            font-weight: 700;
-            font-size: 36px;
+            font-weight: 500;
+            font-size: 38px;
+            color: rgb(255, 255, 255);
+            
         }
 
         .subcontenedorAside {
             display: flex;
             flex-direction: row;
             align-items: baseline;
-            width: 90%;
-            margin: 0px auto;
-
+            justify-content: space-around;
+            width: 100%;
+            
             .itemAside {
                 width: auto;
                 text-align: center;
                 height: auto;
                 margin: 10px 0 10px 0;
-                
 
+                .itemAside__h4 {
+                    padding-bottom: 15px;
+                    text-transform: uppercase;
+                    color: rgb(234, 238, 222);
+                }
+                
                 .itemAside__p {
                     color: black;
-                    font-weight: 500;
+                    font-weight: 400;
+                    line-height: 10px;
+                    color: white;
                 }
             }
         }
@@ -1008,18 +1066,13 @@ width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    /* border: solid 1px red; */
-    width: 50%;
+    width: 18%;
     }
     
     i {
     color: silver;
     }
     
-
-
-
-
 .castetLogo1 {
 width: 95%;
 margin: 0px auto;
@@ -1038,9 +1091,6 @@ text-align: center;
 height: auto;
 margin: 10px 0 10px 0;
 }
-
-
-
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
@@ -1210,7 +1260,6 @@ margin: 10px 0 10px 0;
                 width: 100%;
                 height: 100%;
                 
-    
                 .contenedor1__item3__div1__imgAm {
                     width: 100%;
                     height: 100%;
@@ -1222,7 +1271,6 @@ margin: 10px 0 10px 0;
             width: 100%;
             height: 366px;
             
-    
             .contenedor1__item4__imgCk {
                 width: 100%;
                 height: 100%;
@@ -1651,7 +1699,20 @@ margin: 10px 0 10px 0;
     
         img {
             height: 500px;
-            border: solid 1px rgb(216, 216, 216);
+            border-radius: 10px rgb(216, 216, 216);
+            margin-bottom: 50px;
+        }
+    }
+
+    #carouselEstudio {
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+
+        .carousel-inner {
+            width: 100%;
         }
     }
 }
@@ -1661,7 +1722,7 @@ margin: 10px 0 10px 0;
 
 .banner::before {
     height: 93vh;
-    width: 100vw;
+    width: 100%;
     content: '';
     position: absolute;
     background: rgba(0,0,0, 0.3);
@@ -1669,7 +1730,7 @@ margin: 10px 0 10px 0;
 
 .banner > img {
     height: 93vh;
-    width: 100vw;
+    width: 100%;
     background: rgba(0,0,0, 0.7);
     margin: 0px auto;
     background-size: cover;
@@ -2469,15 +2530,12 @@ h2 {
 
         #carouselDiseño {
             height: 300px;
-            margin-top: 45px;
             width: 80%;
         }
     
         .arquitectonico__video {
             height: 300px;
             width: 80%;
-            margin-top: 45px;
-            
         }
     }
 
