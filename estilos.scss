@@ -968,9 +968,6 @@ main {
                 padding: 5px;
                 margin: 0px auto;
                 margin-top: 10px;
-                background-color: rgba(206, 176, 133, 0.493);
-                background-color: rgba(202, 179, 146, 0.61);
-                background-color: rgba(151, 142, 129, 0.61);
                 background-color: rgba(88, 88, 88, 0.61);
                 
                 color: rgb(253, 253, 237);
@@ -1284,14 +1281,19 @@ margin: 10px 0 10px 0;
         display: flex;
         flex-direction: row;
         
-        .contenedor2__item5 {
+        // .contenedor2__item5 {
+        //     width: 100%;
+        //     height: 100%;
+    
+        //     .contenedor2__item5__imgCrystal {
+        //         width: 100%;
+        //         height: 100%;
+        //     }
+        // }
+
+        #carouselinicio {
             width: 100%;
             height: 100%;
-    
-            .contenedor2__item5__imgCrystal {
-                width: 100%;
-                height: 100%;
-            }
         }
     
         .contenedor2__div {
@@ -1416,7 +1418,7 @@ margin: 10px 0 10px 0;
     
         .contenedor4__item8 {
             width: 100%;
-    
+            
             .contenedor4__item8__imgJs {
                 width: 100%;
                 height: 100%;
@@ -1426,29 +1428,39 @@ margin: 10px 0 10px 0;
     
     // aside index
     
-    .aside__index {
+    .aside__inicio {
         display: flex;
         flex-direction: column;
         width: 100%;
         background-image: linear-gradient(to right, black, gray);
-    
-        .divVariables {
-    
-            .h2Servicios {
-                text-transform: uppercase;
+        
+        .bannerGradientInicio {
+            background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
+            background-repeat: repeat;
+            animation: gradient 5s linear infinite;
+            width: 99.9%;
+            height: 135px;
+            
+            h2 {
+                color: #000000;
+                font-weight: 500;
                 font-family: 'Roboto', sans-serif;
-                padding-top: 90px;
-                padding-bottom: 90px;
-                color: rgba(255, 248, 220, 0.712);
+                text-transform: uppercase;
+                text-align: center;
+                padding-top: 50px;
+                padding-bottom: 36px ;
+                color: rgb(231, 231, 231);
+                border-top: solid 16px black;
+                border-bottom: solid 16px black;
             }
         }
-    
+
         .prueba {
             display: flex;
             flex-wrap: wrap ;
             justify-content: space-evenly;
             width: 100%;
-            background-image: linear-gradient(to right, black, gray);
+            background-image: linear-gradient(to bottom, black, gray);
     
             .prueba__div {
                 display: flex;
@@ -1456,20 +1468,19 @@ margin: 10px 0 10px 0;
                 justify-content: space-between;
                 width: 45%;
                 height: 600px;
+                margin-top: 20px;
                 margin-bottom: 25px;
-                background-color: rgba(248, 237, 220, 0.5);
-                background-color: rgba(248, 237, 220, 0.438);
-                // border: solid 1px rgb(226, 197, 159);
                 border: solid 1px rgb(99, 97, 97);
-                border: solid 1px rgb(131, 130, 130);
-                
+                border-radius: 5px; 
+
                 .prueba__divCard {
                     width: 100%;
                     height: 50%;
                     display: flex;
                     flex-direction: column;
                     justify-content: space-evenly;
-                    background-image: linear-gradient(to top, black, rgb(90, 90, 90));     
+                    background-image: linear-gradient(to top, black, rgb(90, 90, 90));    
+                    border-radius: 5px; 
                 }
                 
                 .prueba__h3 {
@@ -1486,8 +1497,9 @@ margin: 10px 0 10px 0;
                     width: 100%;
                     height: 50%;
                     margin: 0px auto;
-                    background: rgba(0,0,0, 0.4) url(imagenes/diseño_arquitectonico.jpg);
+                    background: rgba(0,0,0, 0.1) url(imagenes/i/bannerCastet16.jpg);
                     background-size: cover;
+                    background-position-y: -105px;
                     background-blend-mode: darken;
                 }
                 
@@ -1495,7 +1507,7 @@ margin: 10px 0 10px 0;
                     width: 100%;
                     height: 50%;
                     margin: 0px auto;
-                    background: rgba(0,0,0, 0.4) url(imagenes/direccion_de_obra.jpg);
+                    background: rgba(0,0,0, 0.1) url(imagenes/construcción1.jpg);
                     background-size: cover;
                     background-blend-mode: darken;
                 }
@@ -1504,7 +1516,7 @@ margin: 10px 0 10px 0;
                     width: 100%;
                     height: 50%;
                     margin: 0px auto;
-                    background: rgba(0,0,0, 0.4) url(imagenes/construccion_administracion_1.jpg);
+                    background: rgba(0,0,0, 0.1) url(imagenes/construccion4.jpg);
                     background-size: cover;
                     background-blend-mode: darken;
                     background-position: center;
@@ -1514,7 +1526,7 @@ margin: 10px 0 10px 0;
                     width: 100%;
                     height: 50%;
                     margin: 0px auto;
-                    background: rgba(0,0,0, 0.4) url(imagenes/interior_8.jpg);
+                    background: rgba(0,0,0, 0.1) url(imagenes/interior_8.jpg);
                     background-size: cover;
                     background-blend-mode: darken;
                     background-position: center;
@@ -1537,13 +1549,8 @@ margin: 10px 0 10px 0;
                     padding: 5px;
                     margin: 0px auto;
                     margin-top: 10px;
-                    background-color: rgba(206, 176, 133, 0.493);
-                    background-color: rgba(202, 179, 146, 0.61);
-                    background-color: rgba(151, 142, 129, 0.61);
                     background-color: rgba(88, 88, 88, 0.61);
-                    
-                    color: rgb(253, 253, 237);
-                    color: white;
+                    color: rgb(190, 190, 190);
                     border-radius: 5px;
                     text-decoration: none;
                     text-align: center;
@@ -1555,23 +1562,13 @@ margin: 10px 0 10px 0;
                 .prueba__a:hover {
                     background-color: rgb(97, 95, 95);
                 }
-                
             }
 
             .prueba__div:hover {
-                transform: scale(1.04);
+                transform: scale(0.95);
+                transition-duration: 0.8s;
             }
         }
-    }
-    
-    .h3Contacto {
-        color: #000000;
-        padding-top: 90px;
-        padding-bottom: 90px;
-        font-weight: 500;
-        font-family: 'Roboto', sans-serif;
-        text-transform: uppercase;
-        color: rgba(255, 248, 220, 0.712);
     }
     
     .contenedorAside {
@@ -1579,15 +1576,20 @@ margin: 10px 0 10px 0;
         flex-direction: row;
         width: 100%;
         height: 350px;
-    
+        margin-top: 18px;
+        
         .iframe {
             width: 100%;
-            height: 350px;
+            height: 349px;
         }
     
         .imgLadrillo {
             height: 100%;
             width: 100%;
+            background: rgba(0,0,0, 0.3) url(imagenes/i/banner.jpg);
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: darken;
 
             .imgFondo {
                 height: 350px;
@@ -1597,32 +1599,47 @@ margin: 10px 0 10px 0;
             .imgLadrillo__h3 {
                 text-align: center;
                 text-transform: uppercase;
-                font-weight: 700;
+                font-weight: 600;
                 font-size: 36px;
+                padding-bottom: 20px;
             }
     
             .subcontenedorAside {
                 display: flex;
-                flex-direction: row;
-                align-items: baseline;
-                width: 90%;
-                margin: 0px auto;
-    
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                
                 .itemAside {
                     width: auto;
                     text-align: center;
                     height: auto;
                     margin: 10px 0 10px 0;
+
+                    .itemAside__h4 {
+                        text-transform: uppercase;
+                        padding-bottom: 10px;
+                        font-size: 18px;
+                        color: white
+                    }
                     
-    
                     .itemAside__p {
                         color: black;
                         font-weight: 500;
+                        font-size: 12px;
+                        line-height: 5px;
+                        color: white;
                     }
                 }
             }
-        }
+        }  
     }
+    
+    .logosRedes {
+        width: 15%;
+    }
+
 /* ------------------------------- PAGINA ESTUDIO */
 // rgb(233, 232, 232)
 .mainEstudio {
@@ -1649,8 +1666,6 @@ margin: 10px 0 10px 0;
     }
     
     .bannerGradientEstudio {
-        background: linear-gradient(100deg, rgba(255, 145, 0, 0.514) 25%, rgba(209, 202, 136, 0.705) 50%, rgba(255, 145, 0, 0.514) 75%);
-
         background: linear-gradient(100deg, rgba(121, 112, 103, 0.514) 25%, rgba(65, 64, 58, 0.705) 50%, rgba(121, 112, 103, 0.514) 75%);
         background-repeat: repeat;
         animation: gradient 5s linear infinite;

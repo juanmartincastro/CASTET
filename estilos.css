@@ -953,9 +953,6 @@ span {
     padding: 5px;
     margin: 0px auto;
     margin-top: 10px;
-    background-color: rgba(206, 176, 133, 0.493);
-    background-color: rgba(202, 179, 146, 0.61);
-    background-color: rgba(151, 142, 129, 0.61);
     background-color: rgba(88, 88, 88, 0.61);
     color: #fdfded;
     color: white;
@@ -1297,11 +1294,7 @@ span {
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  .contenedor2 .contenedor2__item5 {
-    width: 100%;
-    height: 100%;
-  }
-  .contenedor2 .contenedor2__item5 .contenedor2__item5__imgCrystal {
+  .contenedor2 #carouselinicio {
     width: 100%;
     height: 100%;
   }
@@ -1454,7 +1447,7 @@ span {
     width: 100%;
     height: 100%;
   }
-  .aside__index {
+  .aside__inicio {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1466,14 +1459,27 @@ span {
     background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
     background-image: linear-gradient(to right, black, gray);
   }
-  .aside__index .divVariables .h2Servicios {
-    text-transform: uppercase;
-    font-family: 'Roboto', sans-serif;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    color: rgba(255, 248, 220, 0.712);
+  .aside__inicio .bannerGradientInicio {
+    background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
+    background-repeat: repeat;
+    -webkit-animation: gradient 5s linear infinite;
+            animation: gradient 5s linear infinite;
+    width: 99.9%;
+    height: 135px;
   }
-  .aside__index .prueba {
+  .aside__inicio .bannerGradientInicio h2 {
+    color: #000000;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 36px;
+    color: #e7e7e7;
+    border-top: solid 16px black;
+    border-bottom: solid 16px black;
+  }
+  .aside__inicio .prueba {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1483,10 +1489,10 @@ span {
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
     width: 100%;
-    background-image: -webkit-gradient(linear, left top, right top, from(black), to(gray));
-    background-image: linear-gradient(to right, black, gray);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
+    background-image: linear-gradient(to bottom, black, gray);
   }
-  .aside__index .prueba .prueba__div {
+  .aside__inicio .prueba .prueba__div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1499,13 +1505,12 @@ span {
             justify-content: space-between;
     width: 45%;
     height: 600px;
+    margin-top: 20px;
     margin-bottom: 25px;
-    background-color: rgba(248, 237, 220, 0.5);
-    background-color: rgba(248, 237, 220, 0.438);
     border: solid 1px #636161;
-    border: solid 1px #838282;
+    border-radius: 5px;
   }
-  .aside__index .prueba .prueba__div .prueba__divCard {
+  .aside__inicio .prueba .prueba__div .prueba__divCard {
     width: 100%;
     height: 50%;
     display: -webkit-box;
@@ -1520,8 +1525,9 @@ span {
             justify-content: space-evenly;
     background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(#5a5a5a));
     background-image: linear-gradient(to top, black, #5a5a5a);
+    border-radius: 5px;
   }
-  .aside__index .prueba .prueba__div .prueba__h3 {
+  .aside__inicio .prueba .prueba__div .prueba__h3 {
     width: 90%;
     margin: 0px auto;
     color: #fdfded;
@@ -1530,60 +1536,57 @@ span {
     text-transform: uppercase;
     text-align: left;
   }
-  .aside__index .prueba .prueba__div .prueba__img {
+  .aside__inicio .prueba .prueba__div .prueba__img {
     width: 100%;
     height: 50%;
     margin: 0px auto;
-    background: rgba(0, 0, 0, 0.4) url(imagenes/diseño_arquitectonico.jpg);
+    background: rgba(0, 0, 0, 0.1) url(imagenes/i/bannerCastet16.jpg);
+    background-size: cover;
+    background-position-y: -105px;
+    background-blend-mode: darken;
+  }
+  .aside__inicio .prueba .prueba__div .prueba__img1 {
+    width: 100%;
+    height: 50%;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.1) url(imagenes/construcción1.jpg);
     background-size: cover;
     background-blend-mode: darken;
   }
-  .aside__index .prueba .prueba__div .prueba__img1 {
+  .aside__inicio .prueba .prueba__div .prueba__img2 {
     width: 100%;
     height: 50%;
     margin: 0px auto;
-    background: rgba(0, 0, 0, 0.4) url(imagenes/direccion_de_obra.jpg);
-    background-size: cover;
-    background-blend-mode: darken;
-  }
-  .aside__index .prueba .prueba__div .prueba__img2 {
-    width: 100%;
-    height: 50%;
-    margin: 0px auto;
-    background: rgba(0, 0, 0, 0.4) url(imagenes/construccion_administracion_1.jpg);
-    background-size: cover;
-    background-blend-mode: darken;
-    background-position: center;
-  }
-  .aside__index .prueba .prueba__div .prueba__img3 {
-    width: 100%;
-    height: 50%;
-    margin: 0px auto;
-    background: rgba(0, 0, 0, 0.4) url(imagenes/interior_8.jpg);
+    background: rgba(0, 0, 0, 0.1) url(imagenes/construccion4.jpg);
     background-size: cover;
     background-blend-mode: darken;
     background-position: center;
   }
-  .aside__index .prueba .prueba__div .prueba__divP {
+  .aside__inicio .prueba .prueba__div .prueba__img3 {
+    width: 100%;
+    height: 50%;
+    margin: 0px auto;
+    background: rgba(0, 0, 0, 0.1) url(imagenes/interior_8.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    background-position: center;
+  }
+  .aside__inicio .prueba .prueba__div .prueba__divP {
     width: 90%;
     margin: 0px auto;
     margin-top: 10px;
   }
-  .aside__index .prueba .prueba__div .prueba__divP .prueba__divPP {
+  .aside__inicio .prueba .prueba__div .prueba__divP .prueba__divPP {
     color: #b1adad;
     text-align: left;
   }
-  .aside__index .prueba .prueba__div .prueba__a {
+  .aside__inicio .prueba .prueba__div .prueba__a {
     width: 90%;
     padding: 5px;
     margin: 0px auto;
     margin-top: 10px;
-    background-color: rgba(206, 176, 133, 0.493);
-    background-color: rgba(202, 179, 146, 0.61);
-    background-color: rgba(151, 142, 129, 0.61);
     background-color: rgba(88, 88, 88, 0.61);
-    color: #fdfded;
-    color: white;
+    color: #bebebe;
     border-radius: 5px;
     text-decoration: none;
     text-align: center;
@@ -1591,21 +1594,14 @@ span {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
   }
-  .aside__index .prueba .prueba__div .prueba__a:hover {
+  .aside__inicio .prueba .prueba__div .prueba__a:hover {
     background-color: #615f5f;
   }
-  .aside__index .prueba .prueba__div:hover {
-    -webkit-transform: scale(1.04);
-            transform: scale(1.04);
-  }
-  .h3Contacto {
-    color: #000000;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-    color: rgba(255, 248, 220, 0.712);
+  .aside__inicio .prueba .prueba__div:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
   }
   .contenedorAside {
     display: -webkit-box;
@@ -1617,14 +1613,19 @@ span {
             flex-direction: row;
     width: 100%;
     height: 350px;
+    margin-top: 18px;
   }
   .contenedorAside .iframe {
     width: 100%;
-    height: 350px;
+    height: 349px;
   }
   .contenedorAside .imgLadrillo {
     height: 100%;
     width: 100%;
+    background: rgba(0, 0, 0, 0.3) url(imagenes/i/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: darken;
   }
   .contenedorAside .imgLadrillo .imgFondo {
     height: 350px;
@@ -1633,22 +1634,25 @@ span {
   .contenedorAside .imgLadrillo .imgLadrillo__h3 {
     text-align: center;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 36px;
+    padding-bottom: 20px;
   }
   .contenedorAside .imgLadrillo .subcontenedorAside {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    width: 90%;
-    margin: 0px auto;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
   }
   .contenedorAside .imgLadrillo .subcontenedorAside .itemAside {
     width: auto;
@@ -1656,9 +1660,21 @@ span {
     height: auto;
     margin: 10px 0 10px 0;
   }
+  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside .itemAside__h4 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    font-size: 18px;
+    color: white;
+  }
   .contenedorAside .imgLadrillo .subcontenedorAside .itemAside .itemAside__p {
     color: black;
     font-weight: 500;
+    font-size: 12px;
+    line-height: 5px;
+    color: white;
+  }
+  .logosRedes {
+    width: 15%;
   }
   /* ------------------------------- PAGINA ESTUDIO */
   .mainEstudio {
@@ -1682,7 +1698,6 @@ span {
     background-blend-mode: darken;
   }
   .mainEstudio .bannerGradientEstudio {
-    background: linear-gradient(100deg, rgba(255, 145, 0, 0.514) 25%, rgba(209, 202, 136, 0.705) 50%, rgba(255, 145, 0, 0.514) 75%);
     background: linear-gradient(100deg, rgba(121, 112, 103, 0.514) 25%, rgba(65, 64, 58, 0.705) 50%, rgba(121, 112, 103, 0.514) 75%);
     background-repeat: repeat;
     -webkit-animation: gradient 5s linear infinite;
