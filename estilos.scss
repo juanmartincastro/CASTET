@@ -104,10 +104,1152 @@
     }
  }
 
+
+ @media only screen and (min-width: 300px) and (max-width: 475px) {
+    .navbar {
+        width: 100%;
+    }
+
+    
+.navbar-nav {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 1px;
+    margin-left: 1%;
+}
+
+.navbar-nav > .nav-item {
+    
+    padding-left: 1%;
+    text-align: left;
+}
+    
+    .carousel {
+    height: 350px;
+    width: 100%;
+    }
+    
+    .carousel-inner {
+    height: 100%;
+    width: 100%;
+    }
+    
+    .carousel-item {
+    height: 100%;
+    width: 100%;
+    }
+    
+    .carousel-item > img {
+    height: 100%;
+    width: 100%;
+    }
+    // -------------------------------- PAGINA INICIO ------------------------------
+    
+    main {
+        background-color: rgba(100, 97, 95, 0.836);
+    }
+    
+    .contenedor {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        background-color: white;
+        
+        .contenedor__item1 {
+            width: 100%;
+    
+            .contenedor__item1__imgIndex {
+                width: 100%;
+                margin-top: 40px;
+            }
+        }
+    
+        .contenedor__item2 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: auto;
+            
+            .contenedor__item2__h2 {
+                width: 90%;
+                margin: 0px auto;
+                margin-top: 40px;
+                font-size: 32px;
+                text-transform: uppercase;
+            }
+    
+            .contenedor__item2__p {
+                width: 90%;
+                margin: 0px auto;
+                margin-top: 40px;
+                text-align: justify;
+                font-family: 'Roboto', sans-serif;
+                line-height: 30px;
+            }
+    
+        }
+    
+        .contenedor__item2__enlaceHome {
+            width: 25%;
+            margin-left: 5%;
+            margin-top: 30px;
+            
+            .contenedor__item2__enlaceHome__a {
+                text-decoration: none;
+                color: black;
+                text-transform: uppercase;
+                font-size: 12px;
+            }
+        }
+    }
+    
+    .contenedor1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    
+        .contenedor1__item3 {
+            width: 100%;
+            
+            .contenedor1__item3__div {
+                width: 100%;
+    
+                .contenedor1__item3__div__h3 {
+                    width: 90%;
+                    margin: 0px auto;
+                    text-transform: uppercase;
+                    margin-top: 40px;
+                }
+    
+                .contenedor1__p {
+                    width: 90%;
+                    margin: 0px auto;
+                    margin-top: 20px;
+                    margin-bottom: 40px;
+                    text-align: justify;
+                }
+            }
+    
+            .contenedor1__item3__div1 {
+                width: 100%;
+                height: 500px;
+                
+                .contenedor1__item3__div1__imgAm {
+                    width: 100%;
+                }
+            }
+        }
+    
+        .contenedor1__item4 {
+            width: 100%;
+    
+            .contenedor1__item4__imgCk {
+                width: 100%;
+            }
+        }
+    }
+    
+    .contenedor2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: white;
+        
+        .contenedor2__div {
+            width: 100%;
+            height: 246px;
+            
+            .contenedor2__div__h3 {
+                width: 90%;
+                margin: 0px auto;
+                margin-top: 40px;
+                text-transform: uppercase;
+            }
+    
+            .contenedor2__p {
+                width: 90%;
+                margin: 0px auto;
+                margin-top: 20px;
+                margin-bottom: 40px;
+                text-align: justify;
+            }
+        } 
+    }
+    
+    .contenedor3 {
+        width: 100%;
+        display: flex;
+        flex-direction:column-reverse;
+        background-color: white;
+    
+        .contenedor3__item6 {
+            width: 100%;
+            
+            .contenedor3__item6__imgCp {
+                width: 100%;
+            }
+        }
+    
+        .contenedor3__item7 {
+            width: 100%;
+            
+            .contenedor3__item7__div {
+                width: 100%;
+    
+                .contenedor3__item7__div__imgDg {
+                    width: 100%;
+                }
+            }
+    
+            .contenedor3__item7__p {
+                width: 100%;
+               
+                .contenedor3__item7__p__h3 {
+                    width: 90%;
+                    margin: 0px auto;
+                    margin-top: 40px;
+                    text-transform: uppercase;
+                }
+    
+                .contenedor3__item7__pp {
+                    width: 90%;
+                    margin: 0px auto;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    
+    .contenedor4 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        
+        .contenedor4__div {
+            width: 100%;
+    
+            .contenedor4__div__h3 {
+                width: 90%;
+                margin: 0px auto;
+                margin-top: 40px;
+                text-transform: uppercase;
+            }
+    
+            .contenedor4__div__p {
+                width: 90%;
+                    margin: 0px auto;
+                    margin-top: 40px;
+                    margin-bottom: 40px;
+                    text-align: justify;    
+            }
+        }
+    
+        .contenedor4__item8 {
+            width: 100%;
+    
+            .contenedor4__item8__imgJs {
+                width: 100%;
+                border-bottom: solid 20px rgba(100, 97, 95, 0.836);
+            }
+        }
+    }
+    
+    // ------------------- aside inicio
+    
+    .aside__inicio {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: rgba(83, 82, 78, 0.836);
+        background-color: rgba(100, 97, 95, 0.836);
+    
+        .bannerGradientInicio {
+            background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
+            background-repeat: repeat;
+            animation: gradient 5s linear infinite;
+            width: 99.9%;
+            height: 135px;
+            
+            h2 {
+                color: #000000;
+                font-weight: 500;
+                font-family: 'Roboto', sans-serif;
+                text-transform: uppercase;
+                text-align: center;
+                padding-top: 50px;
+                color: rgb(231, 231, 231)
+            }
+            
+        }
+    
+        .prueba {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-top: 20px;
+    
+            .prueba__div {
+                display: flex;
+                flex-direction: column;
+                width: 90%;
+                height: 500px;
+                margin: 0px auto;
+                margin-bottom: 20px;
+                background-color: rgba(248, 237, 220, 0.5);
+                background-color: rgba(248, 237, 220, 0.438);
+                
+                .prueba__divCard {
+                    width: 100%;
+                    height: 50%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-evenly;
+                    background-image: linear-gradient(to top, black, rgb(90, 90, 90));     
+                }
+    
+                .prueba__h3 {
+                    width: 90%;
+                    margin: 0px auto;
+                    color: rgb(253, 253, 237);
+                    color: white;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    text-align: left;
+                }
+    
+                .prueba__img {
+                    width: 100%;
+                    height: 350px;
+                    margin: 0px auto;
+                    background: rgba(0,0,0, 0.2) url(imagenes/i/bannerCastet10.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-blend-mode: darken;
+                }
+                
+                .prueba__img1 {
+                    width: 100%;
+                    height: 350px;
+                    margin: 0px auto;
+                    background:rgba(0,0,0, 0.2) url(imagenes/direccion_de_obra.jpg);
+                    background-size: cover;
+                    background-blend-mode: darken;
+                }
+    
+                .prueba__img2 {
+                    width: 100%;
+                    height: 350px;
+                    margin: 0px auto;
+                    background:rgba(0,0,0, 0.2) url(imagenes/construcción1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                    background-blend-mode: darken;
+                }
+    
+                .prueba__img3 {
+                    width: 100%;
+                    height: 350px;
+                    margin: 0px auto;
+                    background:rgba(0,0,0, 0.2) url(imagenes/interior.jpg); 
+                    background-position: center;
+                    background-size: cover;
+                    background-blend-mode: darken;
+                }
+    
+                .prueba__divP {
+                    width: 90%;
+                    margin: 0px auto;
+                    margin-top: 10px;
+                
+                    .prueba__divPP {
+                        color: rgb(177, 173, 173);
+                        text-align: left; 
+                    }
+                }
+    
+                .prueba__a {
+                    width: 90%;
+                    padding: 5px;
+                    margin: 0px auto;
+                    margin-top: 10px;
+                    background-color: rgba(206, 176, 133, 0.493);
+                    background-color: rgba(202, 179, 146, 0.61);
+                    background-color: rgba(151, 142, 129, 0.61);
+                    background-color: rgba(88, 88, 88, 0.61);
+                    
+                    color: rgb(253, 253, 237);
+                    color: white;
+                    border-radius: 5px;
+                    text-decoration: none;
+                    text-align: center;
+                    text-transform: uppercase;
+                    font-family: 'Roboto', sans-serif;
+                    font-weight: 700;
+                }
+    
+                .prueba__a:hover {
+                    background-color: rgb(97, 95, 95);
+                }
+            
+            }
+    
+            .prueba__div:hover {
+                transform: scale(0.95);
+                transition-duration: 0.8s;
+            }
+        }
+    }
+    
+    
+    .h3Contacto {
+        color: #000000;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-weight: 500;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+    
+    .contenedorAside {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 20px;
+    
+        .iframe {
+            width: 100%;
+            height: 350px;
+            
+        }
+    
+        .imgLadrillo {
+            height: 500px;
+            width: 100%;
+            background: rgba(0,0,0, 0.3) url(imagenes/i/bannerCastet.jpeg);
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;      
+            background-blend-mode: darken;
+            
+    
+            .imgLadrillo__h3 {
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 38px;
+                color: rgb(248, 240, 240);
+                
+            }
+    
+            .subcontenedorAside {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                width: 100%;
+                
+                .itemAside {
+                    width: auto;
+                    text-align: center;
+                    height: auto;
+                    margin: 10px 0 10px 0;
+                    
+                    .itemAside__h4 {
+                        padding-bottom: 15px;
+                        text-transform: uppercase;
+                        color: rgb(248, 240, 240);
+                    }
+                    
+                    .itemAside__p {
+                        color: black;
+                        font-weight: 400;
+                        line-height: 10px;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    
+    .estudioFooter--flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 10px 5px;       
+
+        .castetLogo--flex {
+            width: 80%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            
+            .logo--flex {
+                width: 20%;
+                
+                .logo__letras {
+                    font-size: 19px;
+                    margin: 0px auto;   
+                }
+            }
+
+            .legend--flex {
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+
+                .legend__p1 {
+                font-size: 18px;
+                }
+
+                .legend__p2 {
+                display: flex;
+                flex-direction: column;
+                
+                font-size: 9.5px;
+                }
+            }
+
+        }
+        
+    }
+
+    .logosRedes {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+        margin: 0px auto;
+        text-align: center;
+        }
+        
+        i {
+        color: silver;
+        font-size: 60px;
+        }
+    
+    // ----------------------------------------- PAGINA ESTUDIO ---------------------------------------------
+    
+    .mainEstudio {
+        background-image: linear-gradient(to top, black, grEy); 
+        border-bottom:  1px solid black;
+    }
+    
+    .bannerEstudio::before {
+        height: 43vh;
+        width: 100%;
+        content: '';
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+    .bannerEstudio > img {
+        height: 43vh;
+        width: 100%;
+        background: rgba(0,0,0, 0.7);
+        margin: 0px auto;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .bannerGradientEstudio {
+        background: linear-gradient(100deg, rgba(121, 112, 103, 0.514) 25%, rgba(65, 64, 58, 0.705) 50%, rgba(121, 112, 103, 0.514) 75%);
+        background-repeat: repeat;
+        animation: gradient 5s linear infinite;
+        position: absolute;
+        width: 99.9%;
+        height: 60px;
+        text-align: center;
+        margin-top: 18vh;
+        
+        h2 {
+            font-size: 40px;
+            margin-top: 7px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+            span {
+                color:rgb(219, 0, 44)
+            } 
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: - 90rem 0;
+        }
+    
+        75% {
+            background-position: 0 0;
+        }
+    }
+    
+    .divTituloEstudio {
+        margin-top: 50px ;
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 25px ;
+        text-transform: uppercase;
+        
+        
+        .tituloEstudio {
+            color: rgb(3, 3, 3);
+            color: rgb(219, 219, 219);
+        }
+    }
+    
+    .estudioParrafos {
+        width: 80%;
+        margin: 0px auto;
+        color: silver;
+        text-align: justify;
+    
+        img {
+            height: 300px;
+            border-radius: 10px rgb(216, 216, 216);
+            margin-bottom: 50px;
+        }
+    }
+    
+    #carouselEstudio {
+        width: 100%;
+        height: 200px;
+        margin: 0 auto;
+        margin-top: 50px;
+        
+    
+        .carousel-inner {
+            width: 100%;
+        }
+    }
+    
+    //---------------------------------- PAGINA PROYECTOS -----------------------------------------------------
+    
+    .mainProyectos {
+        border: solid 1px black;
+        background-image: linear-gradient(to top, black, rgb(54, 54, 54), gray);
+    }
+    
+    .banner::before {
+        height: 43vh;
+        width: 99.9%;
+        content: '';
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+    .banner > img {
+        height: 43vh;
+        width: 99.9%;
+        background: rgba(0,0,0, 0.7);
+        margin: 0px auto;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .bannerGradient {
+        background: linear-gradient(100deg, rgba(255, 145, 0, 0.514) 25%, rgba(209, 202, 136, 0.705) 50%, rgba(255, 145, 0, 0.514) 75%);
+        background-repeat: repeat;
+        animation: gradient 5s linear infinite;
+        position: absolute;
+        width: 99.9%;
+        height: 60px;
+        text-align: center;
+        margin-top: 18vh;
+        
+        h2 {
+            font-size: 40px;
+            margin-top: 7px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: - 90rem 0;
+        }
+    
+        75% {
+            background-position: 0 0;
+        }
+    }
+    
+    .galeriaProyectos--flex {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    
+    .contenedorPro {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    figure {
+        position:relative;
+        height: 190px;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 5px;
+        box-shadow: 0px 15px 25px rgb(204, 203, 203);
+        box-shadow: 0px 10px 25px rgb(177, 175, 175);
+        cursor: pointer;
+    }
+    
+    img {
+        width: 100%;
+        height: 100%;
+        transition: all 500ms ease-out;
+    }
+    
+    .capa {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(94, 91, 91, 0.589);
+        transition: all 1s ease-out;
+        opacity: 0;
+        visibility: hidden;
+        text-align: center;
+    
+        h3 {
+        margin-top: 80px;
+        color: white;
+        transition: all 500ms ease-out;
+        text-transform: uppercase;
+        font-size: 18px;
+        }
+    }
+    
+    figure:hover > .capa {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    // --------------------------- PAGINA SERVICIOS ------------------------------
+    .bannerServicios::before {
+        height: 43vh;
+        width: 100%;
+        content: '';
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+    .bannerServicios > img {
+        height: 43vh;
+        width: 100%;
+        background: rgba(0,0,0, 0.7);
+        margin: 0px auto;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .bannerGradientServicios {   
+        background: linear-gradient(100deg, rgba(15, 14, 75, 0.418) 25%, rgba(113, 154, 231, 0.705) 50%, rgba(15, 14, 75, 0.418) 75%);
+        background: linear-gradient(100deg, rgba(75, 49, 14, 0.418) 25%, rgba(138, 100, 50, 0.705) 50%, rgba(75, 49, 14, 0.418) 75%);
+        
+        background-repeat: repeat;
+        animation: gradient 5s linear infinite;
+        position: absolute;
+        width: 99.9%;
+        height: 60px;
+        text-align: center;
+        margin-top: 18vh;
+        
+        h2 {
+            font-size: 40px;
+            margin-top: 7px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: - 90rem 0;
+        }
+    
+        75% {
+            background-position: 0 0;
+        }
+    }
+    
+    .main_Servicios {
+        background-image: linear-gradient(to left, black, gray);
+    }
+    
+    .h1servicios--ubicacion{
+        position: absolute;
+        margin-left: 24%;
+        margin-top: 130px;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-size: 50px;   
+    } 
+       
+    #diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:space-evenly;
+        margin-top: 100px;
+        background-image: linear-gradient(to left, black, gray);
+    }
+
+    #interior_designe--flex {
+        padding-bottom: 50px;
+    }
+    
+    .arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
+        display: flex;
+        flex-flow: column;
+        align-items: flex-end;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0px auto;
+    }
+    
+    .arquitectonico__img, .ejecutiva__img, .construccion__img, .designe__img {
+        width: 90%;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    
+    #carouselDiseño, #carouselDireccion, #carouselConstruccion, #carouselDesigne {
+        width: 90%;
+        height: 250px;
+        margin: 0px auto;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    
+    .arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
+        width: 90%;
+        margin: 0px auto;
+    }
+    
+    .arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
+        width: 90%;
+        margin: 0px auto;
+        
+        .arquitectonico1__h2, .ejecutiva1__h2, .construccion1__h2, .designe1__h2 {
+            width: 90%;
+            margin: 0px auto;
+            margin-bottom: 35px; 
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            font-weight: 200;   
+            color: rgb(223, 219, 202);
+        }
+
+        
+    
+        .arquitectonico1__h3, .ejecutiva1__h3, .construccion1__h3, .designe1__h3 {
+            width: 90%;
+            margin: 0px auto;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+            color: rgb(223, 223, 223);
+        }
+    
+        .arquitectonico1__p, .ejecutiva1__p, .construccion1__p, .designe1__p {
+            width: 90%;
+            margin: 0px auto;
+            margin-bottom: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            color:silver;
+            
+            text-align: justify;
+        }
+    }
+    
+    .ejecutiva1__ul {
+        width: 95%;
+        margin: 0px auto;
+        margin-bottom: 50px;
+        color:silver;
+    }
+    
+    // --------------------------- PAGINA CONTACTO -------------------------------
+    
+    .bannerContacto::before {
+        height: 43vh;
+        width: 100%;
+        content: '';
+        position: absolute;
+        background: rgba(0,0,0, 0.3);
+    }
+    
+    .bannerContacto > img {
+        height: 43vh;
+        width: 100%;
+        background: rgba(0,0,0, 0.7);
+        margin: 0px auto;
+        background-size: cover;
+        background-blend-mode: darken;
+    }
+    
+    .bannerGradientContacto {
+        background: linear-gradient(100deg, rgba(14, 75, 29, 0.418) 25%, rgba(176, 202, 135, 0.705) 50%, rgba(14, 75, 29, 0.418) 75%);
+        background-repeat: repeat;
+        animation: gradient 5s linear infinite;
+        position: absolute;
+        width: 99.9%;
+        height: 60px;
+        text-align: center;
+        margin-top: 18vh;
+        
+        h2 {
+            font-size: 40px;
+            margin-top: 7px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+            color: rgb(255, 255, 255);
+        }
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0 0;
+        }
+    
+        50% {
+            background-position: - 90rem 0;
+        }
+    
+        75% {
+            background-position: 0 0;
+        }
+    }
+
+    .diviframe {
+        width: 100%;
+
+        .divIframe__iframe {
+            width: 100%;
+            height: 300px;
+        }
+    }
+    
+    .asideContacto {
+        margin-top: 0px;
+        background-image: linear-gradient(to bottom, black, black);
+        
+    }
+    
+    .mainContacto--height {
+        background-image: linear-gradient(to bottom, black, gray);
+    
+        .divInfo--position {
+            position: absolute;
+            padding-top: 60px;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(to top, black, gray);
+    
+        .divInfo__item {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+                width: 90%;
+                height:145px;
+                
+                .itemContacto__p {
+                    text-align: center;
+                }
+        }
+    
+        .itemContacto { 
+            
+            .itemContacto__h2 {
+                text-transform: uppercase;
+            }
+    
+            .itemContacto__p {
+                    
+                    width: 100%;
+            }
+        }
+    }
+    
+        .contactoTitulo--medidas { 
+            width: 100%; 
+            margin-top: 490px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            color: #7e7b7e;
+            font-size: 20px;
+            background-color: black;
+
+            .contactoTitulo__h1 {
+                margin-bottom: 15px;
+                font-family: 'Roboto', sans-serif;
+                font-size: 30px;
+                font-weight: 500;
+                text-transform: uppercase;
+            }
+    
+            .contactoTitulo__p {
+                font-size: 18px;
+                padding: 1px 0px;
+            }
+        }
+    }
+    
+    .itemContacto {
+        
+        .itemContacto__h2 {
+            color: white;
+            margin-bottom: 25px;
+            font-size: 20px;
+        }
+    
+        .itemContacto__p {
+            color: silver;
+            margin-bottom: 5px ;
+            font-size: 14px;
+        }
+    }
+    
+    .contactoTitulo__h1 {
+        color: rgb(216, 216, 216);
+        
+    }
+    
+    .contactoTitulo__p {
+        color: rgb(179, 179, 179);
+        
+    }
+    
+    .formContacto--medidas {
+        width: 90%;
+        margin: 0px auto;
+        
+        .formContacto__inputForm {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            height: 50px;
+            border: solid 1px #b4b1b4;
+            border-radius: 4px; 
+        }
+           
+           .formContacto__inputForm1 {
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border-radius: 2px;
+            border: solid 1px #b4b1b4;
+            border-radius: 4px; 
+        }
+         
+           .desplegableForm--align {
+            text-align: center;
+        }
+         
+           .desplegableForm__selectForm--margin {
+            margin-bottom: 10px;
+            margin-top: 4px;
+            background-color: black;
+            color: silver;
+        }
+           
+            .btn-dark {
+            margin-bottom: 50px;
+            margin: 0px auto;
+            background-color: rgb(99, 99, 99);
+            width: 100% ;
+
+            span {
+                text-transform: uppercase;
+                font-weight: 500;
+            }
+        }
+    
+           .btn-dark:hover {
+            color: #c5c4c5;
+        }    
+    }
+    
+    .modal-title {
+        background-color: black;
+        color: white;
+        height: 40px;
+        padding: 5px;
+        border-radius: 4px;
+    
+        .modal-title__span1 {
+            color:crimson
+        }
+    }
+    
+    .modal-body {
+        font-family:'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    
+    span {
+        color:silver
+    }
+    
+    
+} 
+
 @media only screen and (min-width: 476px) and (max-width: 768px) {
 
 .navbar {
     width: 100%;
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 1px;
+    margin-left: 1%;
+
+    .nav-item {
+        padding-left: 1%;
+        text-align: left;
+    }
 }
 
 .carousel {
@@ -1119,19 +2261,22 @@ figure:hover > .capa {
         color: silver;
     }
        
-        .btn-dark {
-            margin-bottom: 50px;
-    }
+    .btn-dark {
+        margin-bottom: 50px;
+        margin: 0px auto;
+        background-color: rgb(77, 77, 77);
+        width: 100% ;
+        
+        span {
+            text-transform: uppercase;
+            font-weight: 500;
+        }
 
-       .btn-dark__formBtn {
-        font-family:'Roboto', sans-serif;
-        font-size: 12px;
-        color: #ffffff;
-        text-transform: uppercase;
     }
-       
-       .btn-dark__formBtn:hover {
-        color: #c5c4c5;
+    
+    .btn-dark:hover {
+        color: silver;
+        background-color: rgb(49, 49, 49);
     }    
 }
 
@@ -1160,12 +2305,28 @@ span {
 
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
 
-    // ---------------------NAV BAR, CAROUSEL, FOOTER
-    .navbar {
-       
-        width: 100%;
+// ---------------------NAV BAR, CAROUSEL, FOOTER
+.navbar {
+    width: 100%;
+}
+ 
+.navbar-nav {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 1px;
+    margin-left: 1%;
+
+    .nav-item {
+        padding-left: 15px;
+        padding-right: 15px;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
     }
-    
+
+}
+
     .carousel {
     height: 550px;
     }
@@ -2216,20 +3377,25 @@ figure:hover > .capa {
         color: silver;
     }
        
-        .btn-dark {
-            margin-bottom: 50px;
-    }
+    .btn-dark {
+        margin-bottom: 50px;
+        margin: 0px auto;
+        background-color: rgb(77, 77, 77);
+        width: 100% ;
+        
 
-       .btn-dark__formBtn {
-        font-family:'Roboto', sans-serif;
-        font-size: 12px;
-        color: #ffffff;
-        text-transform: uppercase;
+        span {
+            text-transform: uppercase;
+            font-weight: 500;
+        }
+
     }
+    
+    .btn-dark:hover {
+        color: silver;
+        background-color: rgb(49, 49, 49);
+    } 
        
-       .btn-dark__formBtn:hover {
-        color: #c5c4c5;
-    }    
 }
 
 .modal-title {
@@ -2249,13 +3415,39 @@ figure:hover > .capa {
     font-weight: 700;
 }
 
-span {
-    color:silver
-}
+
 
 }
 
 @media only screen and (min-width: 1201px)  {
+
+.nav {
+    width: 100%;
+}
+
+.collapse {
+    
+}
+
+.navbar-nav {
+    width: 100%;
+    margin: 0px auto;
+    margin-top: 1px;
+    margin-left: 1%;
+    margin-left: 18%;
+
+    .nav-item {
+        padding-left: 35px;
+        padding-right: 35px;
+        text-align: left;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        
+    }
+}
+
+
 
     .carousel {
         height: 94vh;
@@ -3317,20 +4509,23 @@ figure:hover > .capa {
         color: silver;
     }
        
-        .btn-dark {
-            margin-bottom: 50px;
-    }
+    .btn-dark {
+        margin-bottom: 50px;
+        margin: 0px auto;
+        background-color: rgb(77, 77, 77);
+        width: 100% ;
+        
+        span {
+            text-transform: uppercase;
+            font-weight: 500;
+        }
 
-       .btn-dark__formBtn {
-        font-family:'Roboto', sans-serif;
-        font-size: 12px;
-        color: #ffffff;
-        text-transform: uppercase;
     }
-       
-       .btn-dark__formBtn:hover {
-        color: #c5c4c5;
-    }    
+    
+    .btn-dark:hover {
+        color: silver;
+        background-color: rgb(49, 49, 49);
+    } 
 }
 
 .modal-title {
