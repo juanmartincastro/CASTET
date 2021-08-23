@@ -127,128 +127,6 @@
   font-weight: 700;
 }
 
-.logosRedes--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.logosRedes {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-
-i {
-  color: crimson;
-  font-size: 40px;
-}
-
-.main_Servicios {
-  background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
-  background-image: linear-gradient(to left, black, gray);
-}
-
-.h1servicios--ubicacion {
-  position: absolute;
-  margin-left: 24%;
-  margin-top: 130px;
-  color: #ffffff;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-}
-
-.arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
-  width: 611px;
-  height: 474px;
-}
-
-#diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin-top: 250px;
-  background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
-  background-image: linear-gradient(to left, black, gray);
-}
-
-.arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: column;
-          flex-flow: column;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 40%;
-  padding-left: 100px;
-}
-
-.arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
-  width: 40%;
-}
-
-.arquitectonico1--width .arquitectonico1__h2, .arquitectonico1--width .ejecutiva1__h2, .arquitectonico1--width .construccion1__h2, .arquitectonico1--width .designe1__h2, .ejecutiva1--width .arquitectonico1__h2, .ejecutiva1--width .ejecutiva1__h2, .ejecutiva1--width .construccion1__h2, .ejecutiva1--width .designe1__h2, .construccion1--width .arquitectonico1__h2, .construccion1--width .ejecutiva1__h2, .construccion1--width .construccion1__h2, .construccion1--width .designe1__h2, .designe1--width .arquitectonico1__h2, .designe1--width .ejecutiva1__h2, .designe1--width .construccion1__h2, .designe1--width .designe1__h2 {
-  margin-bottom: 15px;
-  padding-left: 30px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  font-weight: 200;
-  color: #7e7b7e;
-  color: #979497;
-  color: silver;
-}
-
-.arquitectonico1--width .arquitectonico1__h3, .arquitectonico1--width .ejecutiva1__h3, .arquitectonico1--width .construccion1__h3, .arquitectonico1--width .designe1__h3, .ejecutiva1--width .arquitectonico1__h3, .ejecutiva1--width .ejecutiva1__h3, .ejecutiva1--width .construccion1__h3, .ejecutiva1--width .designe1__h3, .construccion1--width .arquitectonico1__h3, .construccion1--width .ejecutiva1__h3, .construccion1--width .construccion1__h3, .construccion1--width .designe1__h3, .designe1--width .arquitectonico1__h3, .designe1--width .ejecutiva1__h3, .designe1--width .construccion1__h3, .designe1--width .designe1__h3 {
-  padding: 0px 30px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 20px;
-  color: #686568;
-  color: #5e5e5e;
-}
-
-.arquitectonico1--width .arquitectonico1__p, .arquitectonico1--width .ejecutiva1__p, .arquitectonico1--width .construccion1__p, .arquitectonico1--width .designe1__p, .ejecutiva1--width .arquitectonico1__p, .ejecutiva1--width .ejecutiva1__p, .ejecutiva1--width .construccion1__p, .ejecutiva1--width .designe1__p, .construccion1--width .arquitectonico1__p, .construccion1--width .ejecutiva1__p, .construccion1--width .construccion1__p, .construccion1--width .designe1__p, .designe1--width .arquitectonico1__p, .designe1--width .ejecutiva1__p, .designe1--width .construccion1__p, .designe1--width .designe1__p {
-  margin-bottom: 20px;
-  padding: 0px 30px;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  color: #7e7b7e;
-  color: #8d8c8d;
-}
-
-.ejecutiva1__ul {
-  margin-left: 20px;
-  color: #8d8c8d;
-}
-
 @media only screen and (min-width: 476px) and (max-width: 768px) {
   .navbar {
     width: 100%;
@@ -269,7 +147,6 @@ i {
     height: 100%;
     width: 100%;
   }
-  /* ------------------------------- PAGINA INICIO */
   main {
     background-color: rgba(100, 97, 95, 0.836);
   }
@@ -318,7 +195,7 @@ i {
     line-height: 30px;
   }
   .contenedor .contenedor__item2__enlaceHome {
-    width: 10%;
+    width: 15%;
     margin-left: 5%;
     margin-top: 30px;
   }
@@ -382,16 +259,9 @@ i {
             flex-direction: column-reverse;
     background-color: white;
   }
-  .contenedor2 .contenedor2__item5 {
-    width: 100%;
-  }
-  .contenedor2 .contenedor2__item5 .contenedor2__item5__imgCrystal {
-    width: 100%;
-    height: 366px;
-  }
   .contenedor2 .contenedor2__div {
     width: 100%;
-    height: 216px;
+    height: 246px;
   }
   .contenedor2 .contenedor2__div .contenedor2__div__h3 {
     width: 90%;
@@ -530,8 +400,9 @@ i {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 100%;
+    width: 90%;
     height: 500px;
+    margin: 0px auto;
     margin-bottom: 20px;
     background-color: rgba(248, 237, 220, 0.5);
     background-color: rgba(248, 237, 220, 0.438);
@@ -592,7 +463,7 @@ i {
     height: 350px;
     margin: 0px auto;
     background: rgba(0, 0, 0, 0.2) url(imagenes/interior.jpg);
-    background-position-y: 350px;
+    background-position: center;
     background-size: cover;
     background-blend-mode: darken;
   }
@@ -625,6 +496,126 @@ i {
   }
   .aside__inicio .prueba .prueba__div .prueba__a:hover {
     background-color: #615f5f;
+  }
+  .aside__inicio .prueba .prueba__div:hover {
+    -webkit-transform: scale(0.95);
+            transform: scale(0.95);
+    -webkit-transition-duration: 0.8s;
+            transition-duration: 0.8s;
+  }
+  .h3Contacto {
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+  }
+  .contenedorAside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .contenedorAside .iframe {
+    width: 100%;
+    height: 350px;
+  }
+  .contenedorAside .imgLadrillo {
+    height: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3) url(imagenes/i/bannerCastet.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    background-blend-mode: darken;
+  }
+  .contenedorAside .imgLadrillo .imgLadrillo__h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 38px;
+    color: #f8f0f0;
+  }
+  .contenedorAside .imgLadrillo .subcontenedorAside {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    width: 100%;
+  }
+  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside {
+    width: auto;
+    text-align: center;
+    height: auto;
+    margin: 10px 0 10px 0;
+  }
+  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside .itemAside__h4 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+    color: #f8f0f0;
+  }
+  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside .itemAside__p {
+    color: black;
+    font-weight: 400;
+    line-height: 10px;
+    color: white;
+  }
+  .estudioFooter--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+    padding: 10px 15px;
+  }
+  .logosRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 25%;
+  }
+  i {
+    color: silver;
+    font-size: 40px;
   }
   .mainEstudio {
     background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(grEy));
@@ -692,6 +683,9 @@ i {
   .divTituloEstudio {
     margin-top: 50px;
     width: 80%;
+    margin: 0px auto;
+    margin-top: 25px;
+    text-transform: uppercase;
   }
   .divTituloEstudio .tituloEstudio {
     color: #030303;
@@ -699,9 +693,12 @@ i {
   }
   .estudioParrafos {
     width: 80%;
+    margin: 0px auto;
+    color: silver;
+    text-align: justify;
   }
   .estudioParrafos img {
-    height: 350px;
+    height: 300px;
     border-radius: 10px #d8d8d8;
     margin-bottom: 50px;
   }
@@ -833,126 +830,148 @@ i {
     opacity: 1;
     visibility: visible;
   }
-  .h3Contacto {
-    color: #000000;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-weight: 500;
-    font-family: 'Roboto', sans-serif;
-    text-transform: uppercase;
-  }
-  .contenedorAside {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+  .bannerServicios::before {
+    height: 43vh;
     width: 100%;
-    margin-top: 20px;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
   }
-  .contenedorAside .iframe {
+  .bannerServicios > img {
+    height: 43vh;
     width: 100%;
-    height: 350px;
-  }
-  .contenedorAside .imgLadrillo {
-    height: 500px;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.3) url(imagenes/i/bannerCastet.jpeg);
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0px auto;
     background-size: cover;
-    background-position: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
     background-blend-mode: darken;
   }
-  .contenedorAside .imgLadrillo .imgLadrillo__h3 {
+  .bannerGradientServicios {
+    background: linear-gradient(100deg, rgba(15, 14, 75, 0.418) 25%, rgba(113, 154, 231, 0.705) 50%, rgba(15, 14, 75, 0.418) 75%);
+    background: linear-gradient(100deg, rgba(75, 49, 14, 0.418) 25%, rgba(138, 100, 50, 0.705) 50%, rgba(75, 49, 14, 0.418) 75%);
+    background-repeat: repeat;
+    -webkit-animation: gradient 5s linear infinite;
+            animation: gradient 5s linear infinite;
+    position: absolute;
+    width: 99.9%;
+    height: 60px;
     text-align: center;
+    margin-top: 18vh;
+  }
+  .bannerGradientServicios h2 {
+    font-size: 40px;
+    margin-top: 7px;
+    font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 38px;
-    color: #f8f0f0;
-  }
-  .contenedorAside .imgLadrillo .subcontenedorAside {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-align: baseline;
-        -ms-flex-align: baseline;
-            align-items: baseline;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    width: 100%;
-  }
-  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside {
-    width: auto;
-    text-align: center;
-    height: auto;
-    margin: 10px 0 10px 0;
-  }
-  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside .itemAside__h4 {
-    padding-bottom: 15px;
-    text-transform: uppercase;
-    color: #f8f0f0;
-  }
-  .contenedorAside .imgLadrillo .subcontenedorAside .itemAside .itemAside__p {
-    color: black;
-    font-weight: 400;
-    line-height: 10px;
     color: white;
   }
-  .logosRedes {
+  @keyframes gradient {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -90rem 0;
+    }
+    75% {
+      background-position: 0 0;
+    }
+  }
+  .main_Servicios {
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
+  }
+  .h1servicios--ubicacion {
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 130px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+  }
+  #diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 25%;
+    margin-top: 100px;
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
   }
-  i {
-    color: silver;
-  }
-  .castetLogo1 {
-    width: 95%;
-    margin: 0px auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .subcontenedorAside {
+  .arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    width: 90%;
+    margin: 0px auto;
   }
-  .itemAside {
-    width: auto;
-    text-align: center;
-    height: auto;
-    margin: 10px 0 10px 0;
+  .arquitectonico__img, .ejecutiva__img, .construccion__img, .designe__img {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 30px;
+  }
+  #carouselDiseño, #carouselDireccion, #carouselConstruccion, #carouselDesigne {
+    width: 90%;
+    height: 250px;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .arquitectonico1--width .arquitectonico1__h2, .arquitectonico1--width .ejecutiva1__h2, .arquitectonico1--width .construccion1__h2, .arquitectonico1--width .designe1__h2, .ejecutiva1--width .arquitectonico1__h2, .ejecutiva1--width .ejecutiva1__h2, .ejecutiva1--width .construccion1__h2, .ejecutiva1--width .designe1__h2, .construccion1--width .arquitectonico1__h2, .construccion1--width .ejecutiva1__h2, .construccion1--width .construccion1__h2, .construccion1--width .designe1__h2, .designe1--width .arquitectonico1__h2, .designe1--width .ejecutiva1__h2, .designe1--width .construccion1__h2, .designe1--width .designe1__h2 {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: #dfdbca;
+  }
+  .arquitectonico1--width .arquitectonico1__h3, .arquitectonico1--width .ejecutiva1__h3, .arquitectonico1--width .construccion1__h3, .arquitectonico1--width .designe1__h3, .ejecutiva1--width .arquitectonico1__h3, .ejecutiva1--width .ejecutiva1__h3, .ejecutiva1--width .construccion1__h3, .ejecutiva1--width .designe1__h3, .construccion1--width .arquitectonico1__h3, .construccion1--width .ejecutiva1__h3, .construccion1--width .construccion1__h3, .construccion1--width .designe1__h3, .designe1--width .arquitectonico1__h3, .designe1--width .ejecutiva1__h3, .designe1--width .construccion1__h3, .designe1--width .designe1__h3 {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #dfdfdf;
+  }
+  .arquitectonico1--width .arquitectonico1__p, .arquitectonico1--width .ejecutiva1__p, .arquitectonico1--width .construccion1__p, .arquitectonico1--width .designe1__p, .ejecutiva1--width .arquitectonico1__p, .ejecutiva1--width .ejecutiva1__p, .ejecutiva1--width .construccion1__p, .ejecutiva1--width .designe1__p, .construccion1--width .arquitectonico1__p, .construccion1--width .ejecutiva1__p, .construccion1--width .construccion1__p, .construccion1--width .designe1__p, .designe1--width .arquitectonico1__p, .designe1--width .ejecutiva1__p, .designe1--width .construccion1__p, .designe1--width .designe1__p {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: silver;
+    text-align: justify;
+  }
+  .ejecutiva1__ul {
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    color: silver;
   }
   .bannerContacto::before {
     height: 43vh;
@@ -1152,48 +1171,6 @@ i {
   .carousel-item > img {
     height: 100%;
   }
-  .logosRedes {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    width: 10%;
-  }
-  i {
-    color: silver;
-  }
-  .castetLogo1 {
-    width: 95%;
-    margin: 0px auto;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .subcontenedorAside {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .itemAside {
-    width: auto;
-    text-align: center;
-    height: auto;
-    margin: 10px 0 10px 0;
-  }
-  /* ------------------------------- PAGINA INDEX */
   .contenedor {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1256,7 +1233,7 @@ i {
     font-size: 12px;
   }
   .contenedor .contenedor__item2__enlaceHome .contenedor__item2__enlaceHome__a:hover {
-    color: rgba(255, 248, 220, 0.712);
+    color: silver;
   }
   .contenedor1 {
     width: 100%;
@@ -1596,7 +1573,7 @@ i {
     margin: 0px auto;
     background: rgba(0, 0, 0, 0.1) url(imagenes/i/bannerCastet16.jpg);
     background-size: cover;
-    background-position-y: -105px;
+    background-position: center;
     background-blend-mode: darken;
   }
   .aside__inicio .prueba .prueba__div .prueba__img1 {
@@ -1728,7 +1705,21 @@ i {
     color: white;
   }
   .logosRedes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
     width: 15%;
+  }
+  i {
+    color: silver;
+    font-size: 40px;
   }
   /* ------------------------------- PAGINA ESTUDIO */
   .mainEstudio {
@@ -1796,10 +1787,20 @@ i {
   }
   .mainEstudio .divTituloEstudio {
     margin-top: 50px;
+    width: 80%;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-transform: uppercase;
   }
   .mainEstudio .divTituloEstudio .tituloEstudio {
     color: #030303;
     color: silver;
+  }
+  .mainEstudio .estudioParrafos {
+    width: 80%;
+    margin: 0px auto;
+    color: silver;
+    text-align: justify;
   }
   .mainEstudio .estudioParrafos img {
     height: 500px;
@@ -1935,7 +1936,64 @@ i {
     visibility: visible;
   }
   /* ------------------------------- PAGINA SERVICIOS */
-  #diseño_arquitectonico--flex {
+  .bannerServicios::before {
+    height: 93vh;
+    width: 100%;
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .bannerServicios > img {
+    height: 93vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0px auto;
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+  .bannerGradientServicios {
+    background: linear-gradient(100deg, rgba(15, 14, 75, 0.418) 25%, rgba(113, 154, 231, 0.705) 50%, rgba(15, 14, 75, 0.418) 75%);
+    background: linear-gradient(100deg, rgba(114, 49, 19, 0.418) 25%, rgba(138, 100, 50, 0.705) 50%, rgba(114, 49, 19, 0.418) 75%);
+    background-repeat: repeat;
+    -webkit-animation: gradient 5s linear infinite;
+            animation: gradient 5s linear infinite;
+    position: absolute;
+    width: 99.9%;
+    height: 90px;
+    text-align: center;
+    margin-top: 40vh;
+  }
+  .bannerGradientServicios h2 {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: white;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -90rem 0;
+    }
+    75% {
+      background-position: 0 0;
+    }
+  }
+  .main_Servicios {
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
+  }
+  .h1servicios--ubicacion {
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 130px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+  }
+  #diseño_arquitectonico--flex, #construccion_administracion--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1946,55 +2004,11 @@ i {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
+    margin-top: 100px;
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
   }
-  #diseño_arquitectonico--flex .arquitectonico {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0;
-    width: 45%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico .arquitectonico__img {
-    height: 300px;
-    width: 100%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico #carouselDiseño {
-    height: 300px;
-    margin-top: 45px;
-  }
-  #diseño_arquitectonico--flex .arquitectonico .arquitectonico__video {
-    margin-top: 25px;
-    height: 300px;
-    width: 100%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 {
-    width: 45%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 .arquitectonico1__h2 {
-    padding: 0;
-    text-align: right;
-    color: #ddd8ce;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 .arquitectonico1__h3 {
-    padding: 0;
-    text-align: right;
-    color: #ddd8ce;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 .arquitectonico1__p {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0;
-    color: silver;
-  }
-  #direccion_de_obra_ejecutiva--flex {
+  #direccion_de_obra_ejecutiva--flex, #interior_designe--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2005,173 +2019,78 @@ i {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
+    margin-top: 100px;
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
   }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva {
+  .arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0;
-    width: 45%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva .ejecutiva__img {
-    height: 300px;
-    width: 100%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva #carouselDireccion {
-    height: 300px;
-    margin-top: 45px;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva .ejecutiva__video1 {
-    margin-top: 25px;
-    height: 300px;
-    width: 100%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 {
-    width: 45%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__h2 {
-    padding: 0;
-    color: white;
-    color: #ddd8ce;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__h3 {
-    padding: 0;
-    color: #ddd8ce;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__p {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0;
-    color: silver;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__ul {
-    color: silver;
-    padding: 0;
-  }
-  #construccion_administracion--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
+    width: 90%;
+    margin: 0px auto;
   }
-  #construccion_administracion--flex .construccion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0;
-    width: 45%;
+  .arquitectonico__img, .ejecutiva__img, .construccion__img, .designe__img {
+    width: 90%;
+    height: 350px;
+    margin: 0px auto;
   }
-  #construccion_administracion--flex .construccion .construccion__img {
+  #carouselDiseño, #carouselDireccion, #carouselConstruccion, #carouselDesigne {
+    width: 90%;
     height: 300px;
-    width: 100%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  #construccion_administracion--flex .construccion #carouselConstruccion {
-    height: 300px;
-    margin-top: 25px;
+  .arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
+    width: 90%;
+    margin: 0px auto;
   }
-  #construccion_administracion--flex .construccion .construccion__video2 {
-    margin-top: 25px;
-    height: 300px;
-    width: 100%;
+  .arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
+    width: 90%;
+    margin: 0px auto;
   }
-  #construccion_administracion--flex .construccion1 {
-    width: 45%;
+  .arquitectonico1--width .arquitectonico1__h2, .arquitectonico1--width .ejecutiva1__h2, .arquitectonico1--width .construccion1__h2, .arquitectonico1--width .designe1__h2, .ejecutiva1--width .arquitectonico1__h2, .ejecutiva1--width .ejecutiva1__h2, .ejecutiva1--width .construccion1__h2, .ejecutiva1--width .designe1__h2, .construccion1--width .arquitectonico1__h2, .construccion1--width .ejecutiva1__h2, .construccion1--width .construccion1__h2, .construccion1--width .designe1__h2, .designe1--width .arquitectonico1__h2, .designe1--width .ejecutiva1__h2, .designe1--width .construccion1__h2, .designe1--width .designe1__h2 {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: #dfdbca;
   }
-  #construccion_administracion--flex .construccion1 .construccion1__h2 {
-    padding: 0;
-    text-align: right;
-    color: white;
-    color: #ddd8ce;
+  .arquitectonico1--width .arquitectonico1__h3, .arquitectonico1--width .ejecutiva1__h3, .arquitectonico1--width .construccion1__h3, .arquitectonico1--width .designe1__h3, .ejecutiva1--width .arquitectonico1__h3, .ejecutiva1--width .ejecutiva1__h3, .ejecutiva1--width .construccion1__h3, .ejecutiva1--width .designe1__h3, .construccion1--width .arquitectonico1__h3, .construccion1--width .ejecutiva1__h3, .construccion1--width .construccion1__h3, .construccion1--width .designe1__h3, .designe1--width .arquitectonico1__h3, .designe1--width .ejecutiva1__h3, .designe1--width .construccion1__h3, .designe1--width .designe1__h3 {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #dfdfdf;
   }
-  #construccion_administracion--flex .construccion1 .construccion1__h3 {
-    padding: 0;
-    text-align: right;
-    color: #ddd8ce;
-  }
-  #construccion_administracion--flex .construccion1 .construccion1__p {
+  .arquitectonico1--width .arquitectonico1__p, .arquitectonico1--width .ejecutiva1__p, .arquitectonico1--width .construccion1__p, .arquitectonico1--width .designe1__p, .ejecutiva1--width .arquitectonico1__p, .ejecutiva1--width .ejecutiva1__p, .ejecutiva1--width .construccion1__p, .ejecutiva1--width .designe1__p, .construccion1--width .arquitectonico1__p, .construccion1--width .ejecutiva1__p, .construccion1--width .construccion1__p, .construccion1--width .designe1__p, .designe1--width .arquitectonico1__p, .designe1--width .ejecutiva1__p, .designe1--width .construccion1__p, .designe1--width .designe1__p {
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    text-align: justify;
-    padding: 0;
     color: silver;
-  }
-  #interior_designe--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: row-reverse;
-            flex-direction: row-reverse;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    width: 100%;
-  }
-  #interior_designe--flex .designe {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0;
-    width: 45%;
-  }
-  #interior_designe--flex .designe .designe__img {
-    height: 300px;
-    width: 100%;
-  }
-  #interior_designe--flex .designe #carouselDesigne {
-    height: 300px;
-    margin-top: 45px;
-  }
-  #interior_designe--flex .designe .designe__video3 {
-    margin-top: 25px;
-    height: 300px;
-    width: 100%;
-  }
-  #interior_designe--flex .designe1 {
-    width: 45%;
-  }
-  #interior_designe--flex .designe1 .designe1__h2 {
-    padding: 0;
-    color: #ddd8ce;
-  }
-  #interior_designe--flex .designe1 .designe1__h3 {
-    padding: 0;
-    text-align: left;
-    color: #ddd8ce;
-  }
-  #interior_designe--flex .designe1 .designe1__p {
-    font-size: 16px;
     text-align: justify;
-    padding: 0;
+  }
+  .ejecutiva1__ul {
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 50px;
     color: silver;
   }
   /* ------------------------------- PAGINA CONTACTO */
@@ -2292,7 +2211,7 @@ i {
     color: #b3b3b3;
   }
   .formContacto--medidas {
-    width: 90%;
+    width: 80%;
     margin: 0px auto;
   }
   .formContacto--medidas .formContacto__inputForm {
@@ -2915,10 +2834,21 @@ i {
     color: white;
   }
   .logosRedes {
-    width: 8%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 10%;
   }
   i {
-    color: #9e9e9e;
+    color: silver;
+    font-size: 40px;
   }
   .mainEstudio {
     background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(grEy));
@@ -2986,6 +2916,9 @@ i {
   .divTituloEstudio {
     margin-top: 50px;
     width: 60%;
+    margin: 0px auto;
+    margin-top: 50px;
+    text-transform: uppercase;
   }
   .divTituloEstudio .tituloEstudio {
     color: #030303;
@@ -2993,6 +2926,9 @@ i {
   }
   .estudioParrafos {
     width: 60%;
+    margin: 0px auto;
+    color: silver;
+    text-align: justify;
   }
   .estudioParrafos img {
     height: 650px;
@@ -3126,72 +3062,63 @@ i {
     opacity: 1;
     visibility: visible;
   }
-  /* ------------------------------- PAGINA SERVICIOS */
-  #diseño_arquitectonico--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
+  .bannerServicios::before {
+    height: 93vh;
     width: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
-    background-image: linear-gradient(to bottom, black, gray);
+    content: '';
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
   }
-  #diseño_arquitectonico--flex .arquitectonico {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-    width: 45%;
+  .bannerServicios > img {
+    height: 93vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    margin: 0px auto;
+    background-size: cover;
+    background-blend-mode: darken;
   }
-  #diseño_arquitectonico--flex .arquitectonico .arquitectonico__img {
-    height: 300px;
-    width: 80%;
+  .bannerGradientServicios {
+    background: linear-gradient(100deg, rgba(15, 14, 75, 0.418) 25%, rgba(113, 154, 231, 0.705) 50%, rgba(15, 14, 75, 0.418) 75%);
+    background-repeat: repeat;
+    -webkit-animation: gradient 5s linear infinite;
+            animation: gradient 5s linear infinite;
+    position: absolute;
+    width: 99.9%;
+    height: 90px;
+    text-align: center;
+    margin-top: 40vh;
   }
-  #diseño_arquitectonico--flex .arquitectonico #carouselDiseño {
-    height: 300px;
-    width: 80%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico .arquitectonico__video {
-    height: 300px;
-    width: 80%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 {
-    width: 45%;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 .arquitectonico1__h2 {
-    padding: 0;
+  .bannerGradientServicios h2 {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
     color: white;
-    color: #ddd8ce;
+  }
+  @keyframes gradient {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: -90rem 0;
+    }
+    75% {
+      background-position: 0 0;
+    }
+  }
+  .main_Servicios {
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
+  }
+  .h1servicios--ubicacion {
+    position: absolute;
+    margin-left: 24%;
+    margin-top: 130px;
+    color: #ffffff;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
   }
-  #diseño_arquitectonico--flex .arquitectonico1 .arquitectonico1__h3 {
-    padding: 0;
-    margin-top: 60px;
-    color: #ddd8ce;
-  }
-  #diseño_arquitectonico--flex .arquitectonico1 .arquitectonico1__p {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0;
-    color: silver;
-  }
-  #direccion_de_obra_ejecutiva--flex {
+  #diseño_arquitectonico--flex, #construccion_administracion--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3202,201 +3129,96 @@ i {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(gray));
-    background-image: linear-gradient(to top, black, gray);
+    margin-top: 100px;
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
   }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-    width: 45%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva .ejecutiva__img {
-    height: 300px;
-    width: 80%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva #carouselDireccion {
-    height: 300px;
-    margin-top: 45px;
-    width: 80%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva .ejecutiva__video1 {
-    margin-top: 25px;
-    height: 300px;
-    width: 80%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 {
-    width: 45%;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__h2 {
-    padding: 0;
-    color: #ddd8ce;
-    text-transform: uppercase;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__h3 {
-    padding: 0;
-    margin-top: 60px;
-    color: #ddd8ce;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__p {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0;
-    color: silver;
-  }
-  #direccion_de_obra_ejecutiva--flex .ejecutiva1 .ejecutiva1__ul {
-    color: silver;
-    padding: 0;
-  }
-  #construccion_administracion--flex {
+  #direccion_de_obra_ejecutiva--flex, #interior_designe--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(black), to(gray));
-    background-image: linear-gradient(to bottom, black, gray);
+    margin-top: 100px;
+    background-image: -webkit-gradient(linear, right top, left top, from(black), to(gray));
+    background-image: linear-gradient(to left, black, gray);
   }
-  #construccion_administracion--flex .construccion {
+  .arquitectonico--flex, .ejecutiva--flex, .construccion--flex, .designe--flex {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-    width: 45%;
-  }
-  #construccion_administracion--flex .construccion .construccion__img {
-    height: 300px;
-    width: 80%;
-  }
-  #construccion_administracion--flex .construccion #carouselConstruccion {
-    height: 300px;
-    margin-top: 25px;
-    width: 80%;
-  }
-  #construccion_administracion--flex .construccion .construccion__video2 {
-    margin-top: 25px;
-    height: 300px;
-    width: 80%;
-  }
-  #construccion_administracion--flex .construccion1 {
-    width: 45%;
-  }
-  #construccion_administracion--flex .construccion1 .construccion1__h2 {
-    padding: 0;
-    margin-bottom: 30px;
-    color: #ddd8ce;
-    text-transform: uppercase;
-  }
-  #construccion_administracion--flex .construccion1 .construccion1__h3 {
-    padding: 0;
-    margin-top: 60px;
-    color: #ddd8ce;
-  }
-  #construccion_administracion--flex .construccion1 .construccion1__p {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0;
-    color: silver;
-  }
-  #interior_designe--flex {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-flow: column;
+            flex-flow: column;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-    width: 100%;
-    padding-bottom: 50px;
-    background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(gray));
-    background-image: linear-gradient(to top, black, gray);
+    width: 90%;
+    margin: 0px auto;
   }
-  #interior_designe--flex .designe {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0;
-    width: 45%;
+  .arquitectonico__img, .ejecutiva__img, .construccion__img, .designe__img {
+    width: 70%;
+    height: 350px;
+    margin: 0px auto;
   }
-  #interior_designe--flex .designe .designe__img {
+  #carouselDiseño, #carouselDireccion, #carouselConstruccion, #carouselDesigne {
+    width: 70%;
     height: 300px;
-    width: 80%;
+    margin: 0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: none;
   }
-  #interior_designe--flex .designe #carouselDesigne {
-    height: 300px;
-    margin-top: 45px;
-    width: 80%;
+  .arquitectonico__video, .ejecutiva__video1, .construccion__video2, .designe__video3 {
+    width: 70%;
+    height: 400px;
+    margin: 0px auto;
   }
-  #interior_designe--flex .designe .designe__video3 {
-    margin-top: 25px;
-    height: 300px;
-    width: 80%;
+  .arquitectonico1--width, .ejecutiva1--width, .construccion1--width, .designe1--width {
+    width: 90%;
+    margin: 0px auto;
   }
-  #interior_designe--flex .designe1 {
-    width: 45%;
+  .arquitectonico1--width .arquitectonico1__h2, .arquitectonico1--width .ejecutiva1__h2, .arquitectonico1--width .construccion1__h2, .arquitectonico1--width .designe1__h2, .ejecutiva1--width .arquitectonico1__h2, .ejecutiva1--width .ejecutiva1__h2, .ejecutiva1--width .construccion1__h2, .ejecutiva1--width .designe1__h2, .construccion1--width .arquitectonico1__h2, .construccion1--width .ejecutiva1__h2, .construccion1--width .construccion1__h2, .construccion1--width .designe1__h2, .designe1--width .arquitectonico1__h2, .designe1--width .ejecutiva1__h2, .designe1--width .construccion1__h2, .designe1--width .designe1__h2 {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    color: #dfdbca;
   }
-  #interior_designe--flex .designe1 .designe1__h2 {
-    padding: 0;
-    margin-bottom: 30px;
-    color: #ddd8ce;
+  .arquitectonico1--width .arquitectonico1__h3, .arquitectonico1--width .ejecutiva1__h3, .arquitectonico1--width .construccion1__h3, .arquitectonico1--width .designe1__h3, .ejecutiva1--width .arquitectonico1__h3, .ejecutiva1--width .ejecutiva1__h3, .ejecutiva1--width .construccion1__h3, .ejecutiva1--width .designe1__h3, .construccion1--width .arquitectonico1__h3, .construccion1--width .ejecutiva1__h3, .construccion1--width .construccion1__h3, .construccion1--width .designe1__h3, .designe1--width .arquitectonico1__h3, .designe1--width .ejecutiva1__h3, .designe1--width .construccion1__h3, .designe1--width .designe1__h3 {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 15px;
     text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #dfdfdf;
   }
-  #interior_designe--flex .designe1 .designe1__h3 {
-    padding: 0;
-    text-align: left;
-    margin-top: 95px;
-    color: #ddd8ce;
-  }
-  #interior_designe--flex .designe1 .designe1__p {
+  .arquitectonico1--width .arquitectonico1__p, .arquitectonico1--width .ejecutiva1__p, .arquitectonico1--width .construccion1__p, .arquitectonico1--width .designe1__p, .ejecutiva1--width .arquitectonico1__p, .ejecutiva1--width .ejecutiva1__p, .ejecutiva1--width .construccion1__p, .ejecutiva1--width .designe1__p, .construccion1--width .arquitectonico1__p, .construccion1--width .ejecutiva1__p, .construccion1--width .construccion1__p, .construccion1--width .designe1__p, .designe1--width .arquitectonico1__p, .designe1--width .ejecutiva1__p, .designe1--width .construccion1__p, .designe1--width .designe1__p {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    text-align: justify;
-    padding: 0;
     color: silver;
+    text-align: justify;
   }
-  #diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
-    padding-top: 250px;
-    margin-top: 0px;
+  .ejecutiva1__ul {
+    width: 70%;
+    margin: 0px auto;
+    margin-bottom: 50px;
+    color: silver;
   }
   .bannerContacto::before {
     height: 93vh;
