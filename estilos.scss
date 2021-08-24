@@ -10,6 +10,7 @@
         color: #ffffff;
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
+        text-transform: uppercase;
     }
 
     .brand__simboloMas {
@@ -21,7 +22,6 @@
     border-bottom: solid 1px black;
     margin-top: -5px;
     font-weight: 600;
-    // background-color: rgba(236, 236, 236, 0.510);
     background-color: rgba(172, 172, 172, 0.330);   
 }
 
@@ -104,26 +104,12 @@
     }
  }
 
-
- @media only screen and (min-width: 300px) and (max-width: 475px) {
+@media only screen and (min-width: 300px) and (max-width: 475px) {
+    
     .navbar {
         width: 100%;
     }
 
-    
-.navbar-nav {
-    width: 100%;
-    margin: 0px auto;
-    margin-top: 1px;
-    margin-left: 1%;
-}
-
-.navbar-nav > .nav-item {
-    
-    padding-left: 1%;
-    text-align: left;
-}
-    
     .carousel {
     height: 350px;
     width: 100%;
@@ -361,12 +347,13 @@
     // ------------------- aside inicio
     
     .aside__inicio {
+        
         display: flex;
         flex-direction: column;
         width: 100%;
         background-color: rgba(83, 82, 78, 0.836);
         background-color: rgba(100, 97, 95, 0.836);
-    
+        
         .bannerGradientInicio {
             background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
             background-repeat: repeat;
@@ -391,7 +378,7 @@
             flex-direction: column;
             width: 100%;
             margin-top: 20px;
-    
+            
             .prueba__div {
                 display: flex;
                 flex-direction: column;
@@ -838,11 +825,12 @@
         text-align: center;
     
         h3 {
-        margin-top: 80px;
         color: white;
         transition: all 500ms ease-out;
         text-transform: uppercase;
         font-size: 18px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         }
     }
     
@@ -1230,8 +1218,7 @@
     span {
         color:silver
     }
-    
-    
+       
 } 
 
 @media only screen and (min-width: 476px) and (max-width: 768px) {
@@ -1245,11 +1232,12 @@
     margin: 0px auto;
     margin-top: 1px;
     margin-left: 1%;
+}
 
-    .nav-item {
-        padding-left: 1%;
-        text-align: left;
-    }
+.navbar-nav > .nav-item {
+    
+    padding-left: 1%;
+    text-align: left;
 }
 
 .carousel {
@@ -1494,7 +1482,8 @@ main {
     width: 100%;
     background-color: rgba(83, 82, 78, 0.836);
     background-color: rgba(100, 97, 95, 0.836);
-
+    padding-top: 20px ;
+    
     .bannerGradientInicio {
         background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
         background-repeat: repeat;
@@ -1604,9 +1593,6 @@ main {
                 padding: 5px;
                 margin: 0px auto;
                 margin-top: 10px;
-                background-color: rgba(206, 176, 133, 0.493);
-                background-color: rgba(202, 179, 146, 0.61);
-                background-color: rgba(151, 142, 129, 0.61);
                 background-color: rgba(88, 88, 88, 0.61);
                 
                 color: rgb(253, 253, 237);
@@ -1631,7 +1617,6 @@ main {
         }
     }
 }
-
 
 .h3Contacto {
     color: #000000;
@@ -1926,17 +1911,87 @@ img {
     text-align: center;
 
     h3 {
-    margin-top: 80px;
     color: white;
     transition: all 500ms ease-out;
     text-transform: uppercase;
     font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     }
 }
 
 figure:hover > .capa {
     opacity: 1;
     visibility: visible;
+}
+
+// --------------------- links proyetos --------------------------
+
+.proyecto_house {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    background-color:white;
+    
+    .proyecto_house__img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .proyecto_house__info {
+        width: 90%;
+        margin: 0px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        
+        .proyecto_house__info__h1 {
+            text-transform: uppercase;
+            font-size: 22px;
+            font-family:'Roboto', sans-serif; 
+            text-align: center;
+            
+        }
+
+        .proyecto_house__info__icons {
+            width: 70%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px auto;
+            
+            .icon_1, .icon_2, .icon_3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                height: 60px;
+
+                span {
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+
+            i {
+                color: gray;
+                font-size: 22px;
+            }
+            
+        }
+
+        .proyecto_house__info__p {
+            text-align: justify;
+            
+        }
+    }
 }
 
 // --------------------------- PAGINA SERVICIOS ------------------------------
@@ -2262,22 +2317,15 @@ figure:hover > .capa {
     }
        
     .btn-dark {
+        width: 100%;
         margin-bottom: 50px;
-        margin: 0px auto;
-        background-color: rgb(77, 77, 77);
-        width: 100% ;
-        
-        span {
-            text-transform: uppercase;
-            font-weight: 500;
-        }
+        text-transform: uppercase;
+        background-color: rgb(66, 66, 66);
+}
 
-    }
-    
-    .btn-dark:hover {
-        color: silver;
-        background-color: rgb(49, 49, 49);
-    }    
+    .btn:hover {
+    background-color: rgb(100, 100, 100);
+    }      
 }
 
 .modal-title {
@@ -2301,32 +2349,72 @@ span {
     color:silver
 }
 
+// ------------------------- PAGINA ERROR 404 ----------------------
+.error404 {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    background: rgba(102, 102, 102, 0.562) url(imagenes/i/error404_4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: darken;
+
+    .error404__mensaje {
+
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+        
+        .error404__mensaje__h1 {
+            margin-top: 170px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .error404__mensaje__h2 {
+            
+            font-size: 76px ;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .error404__mensaje__p {
+            margin-top: 200px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+            
+        }
+    }
+    
 }
 
+}
 @media only screen and (min-width: 769px) and (max-width: 1200px) {
 
-// ---------------------NAV BAR, CAROUSEL, FOOTER
-.navbar {
-    width: 100%;
-}
- 
-.navbar-nav {
-    width: 100%;
-    margin: 0px auto;
-    margin-top: 1px;
-    margin-left: 1%;
-
-    .nav-item {
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: left;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
+    // ---------------------NAV BAR, CAROUSEL, FOOTER
+    .navbar {
+        width: 100%;
     }
 
-}
-
+    .navbar-nav {
+        width: 100%;
+        margin: auto; 
+        margin-left: 5%;
+    }
+    
+    .navbar-nav > .nav-item {
+        padding: 0px 10px;
+        text-align: left;
+        text-transform: uppercase;
+        
+    }
+    
     .carousel {
     height: 550px;
     }
@@ -2557,7 +2645,6 @@ span {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-evenly;
-                // background-color: rgb(51, 51, 51);
                 background-image: linear-gradient(to right, rgb(46, 45, 45), rgb(80, 79, 79));
                 
                 .contenedor3__item7__p__h3 {
@@ -2594,7 +2681,7 @@ span {
             flex-direction: column;
             justify-content: space-evenly;
             background-image: linear-gradient(to right, black, rgb(70, 67, 67));
-    
+            
             .contenedor4__div__h3 {
                 width: 90%;
                 margin: 0px auto;
@@ -2615,17 +2702,13 @@ span {
             }
         }
     
-        .contenedor4__item8 {
+        #carouselinicio2 {
             width: 100%;
-    
-            .contenedor4__item8__imgJs {
-                width: 100%;
-                height: 100%;
-            }
+            height: 100%;
         }  
     }
     
-    // aside index
+    //------------------ aside index
     
     .aside__inicio {
         display: flex;
@@ -2801,6 +2884,7 @@ span {
                 font-weight: 600;
                 font-size: 36px;
                 padding-bottom: 20px;
+                color: rgb(224, 224, 224);
             }
     
             .subcontenedorAside {
@@ -2826,7 +2910,7 @@ span {
                     .itemAside__p {
                         color: black;
                         font-weight: 500;
-                        font-size: 12px;
+                        font-size: 14px;
                         line-height: 5px;
                         color: white;
                     }
@@ -3049,17 +3133,84 @@ img {
     text-align: center;
 
     h3 {
-    margin-top: 80px;
     color: white;
     transition: all 500ms ease-out;
     text-transform: uppercase;
     font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     }
 }
 
 figure:hover > .capa {
     opacity: 1;
     visibility: visible;
+}
+
+// --------------------- links proyectos --------------------------
+
+.proyecto_house {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:white ;
+    
+    .proyecto_house__img {
+        width: 80%;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+
+    .proyecto_house__info {
+        width: 80%;
+        margin: 0px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        .proyecto_house__info__h1 {
+            text-transform: uppercase;
+            font-size: 22px;
+            font-family:'Roboto', sans-serif; 
+            text-align: center;
+        }
+
+        .proyecto_house__info__icons {
+            width: 50%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px auto;
+
+            .icon_1, .icon_2, .icon_3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 60px;
+
+                span {
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+
+            i {
+                color: gray;
+                font-size: 22px;
+            }
+            
+        }
+
+        .proyecto_house__info__p {
+            text-align: justify;
+            
+        }
+    }
 }
 
 /* ------------------------------- PAGINA SERVICIOS */
@@ -3377,25 +3528,17 @@ figure:hover > .capa {
         color: silver;
     }
        
-    .btn-dark {
-        margin-bottom: 50px;
-        margin: 0px auto;
-        background-color: rgb(77, 77, 77);
-        width: 100% ;
-        
-
-        span {
+        .btn-dark {
+            width: 100%;
+            margin-bottom: 50px;
             text-transform: uppercase;
-            font-weight: 500;
-        }
-
+            background-color: rgb(66, 66, 66);
     }
     
-    .btn-dark:hover {
-        color: silver;
-        background-color: rgb(49, 49, 49);
-    } 
-       
+    .btn:hover {
+        background-color: rgb(100, 100, 100);
+    }  
+         
 }
 
 .modal-title {
@@ -3415,39 +3558,77 @@ figure:hover > .capa {
     font-weight: 700;
 }
 
+span {
+    color:silver
+}
 
+// ------------------------ PAGINA ERROR 404 ----------------------
+
+.error404 {
+    width: 100%;
+    height: 600px;
+    margin-top: 60px;
+    background: rgba(102, 102, 102, 0.308) url(imagenes/i/error404_4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-blend-mode: darken;
+
+    .error404__mensaje {
+
+        display: flex;
+        flex-direction: column;
+        
+        text-align: center;
+        
+        .error404__mensaje__h1 {
+            margin-top: 190px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .error404__mensaje__h2 {
+            
+            font-size: 76px ;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .error404__mensaje__p {
+            margin-top: 210px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+            
+        }
+    }
+    
+}
 
 }
 
 @media only screen and (min-width: 1201px)  {
 
-.nav {
-    width: 100%;
-}
+    .navbar {
+        width: 100%;
+    }
 
-.collapse {
+    .navbar-nav {
+        width: 100%;
+        margin: auto; 
+        margin-left: 18%;
+    }
     
-}
-
-.navbar-nav {
-    width: 100%;
-    margin: 0px auto;
-    margin-top: 1px;
-    margin-left: 1%;
-    margin-left: 18%;
-
-    .nav-item {
-        padding-left: 35px;
-        padding-right: 35px;
+    .navbar-nav > .nav-item {
+        padding: 0px 40px;
         text-align: left;
         text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 600;
-        
+        font-weight: 400;
     }
-}
-
-
 
     .carousel {
         height: 94vh;
@@ -3720,7 +3901,7 @@ h2 {
         flex-direction: column;
         justify-content: space-evenly;
         background-image: linear-gradient(to right, black, rgb(70, 67, 67));
-
+        
         .contenedor4__div__h3 {
             width: 90%;
             margin: 0px auto;
@@ -3739,18 +3920,13 @@ h2 {
                 font-family: 'Roboto', sans-serif;
                 line-height: 30px;  
         }
+        
     }
 
-    .contenedor4__item8 {
+    #carouselinicio2{
         width: 100%;
-
-        .contenedor4__item8__imgJs {
-            width: 100%;
-            height: 100%;
-        }
+        height: 100%;
     }
-
-    
 }
 
 // ------------------------------------ aside index
@@ -3950,17 +4126,18 @@ h2 {
 
                 .itemAside__h4 {
                     text-transform: uppercase;
-                    padding-bottom: 10px;
+                    padding-bottom: 12px;
                     font-size: 28px;
                     font-weight: 100;
-                    color: white
+                    color: white;
+                    font-weight: 400;
                 }
                 
                 .itemAside__p {
-                    color: black;
+                    padding-bottom: 25px;
                     font-weight: 500;
                     font-size: 16px;
-                    line-height: 5px;
+                    line-height: 0px;
                     color: white;
                 }
             }
@@ -4180,11 +4357,12 @@ img {
     text-align: center;
 
     h3 {
-    margin-top: 80px;
     color: white;
     transition: all 500ms ease-out;
     text-transform: uppercase;
     font-size: 18px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     }
 }
 
@@ -4193,6 +4371,72 @@ figure:hover > .capa {
     visibility: visible;
 }
 
+// --------------------- links proyectos --------------------------
+
+.proyecto_house {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:white ;
+    
+    .proyecto_house__img {
+        width: 60%;
+        height: 600px;
+        margin: 0px auto;
+        margin-top: 50px;
+    }
+
+    .proyecto_house__info {
+        width: 60%;
+        margin: 0px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        .proyecto_house__info__h1 {
+            text-transform: uppercase;
+            font-size: 22px;
+            font-family:'Roboto', sans-serif; 
+            text-align: center;
+        }
+
+        .proyecto_house__info__icons {
+            width: 50%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px auto;
+
+            .icon_1, .icon_2, .icon_3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 60px;
+
+                span {
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+
+            i {
+                color: gray;
+                font-size: 22px;
+            }
+            
+        }
+
+        .proyecto_house__info__p {
+            text-align: justify;
+            
+        }
+    }
+}
 
 // --------------------------- PAGINA SERVICIOS ------------------------------
 
@@ -4408,6 +4652,14 @@ figure:hover > .capa {
 .mainContacto--height {
     background-image: linear-gradient(to bottom, black, gray);
 
+    .diviframe {
+        width: 100%;
+
+        .divIframe__iframe {
+            width: 100%;
+        }
+    }
+
     .divInfo--position {
         position: absolute;
         padding-top: 60px;
@@ -4510,22 +4762,15 @@ figure:hover > .capa {
     }
        
     .btn-dark {
+        width: 100%;
         margin-bottom: 50px;
-        margin: 0px auto;
-        background-color: rgb(77, 77, 77);
-        width: 100% ;
-        
-        span {
-            text-transform: uppercase;
-            font-weight: 500;
-        }
+        text-transform: uppercase;
+        background-color: rgb(66, 66, 66);
+}
 
-    }
-    
-    .btn-dark:hover {
-        color: silver;
-        background-color: rgb(49, 49, 49);
-    } 
+    .btn:hover {
+    background-color: rgb(100, 100, 100);
+    }    
 }
 
 .modal-title {
@@ -4547,6 +4792,50 @@ figure:hover > .capa {
 
 span {
     color:silver
+}
+
+// ----------------------- PAGINA ERROR 404 ------------------------
+
+.error404 {
+    width: 100%;
+    height: 750px;
+    margin-top: 49px;
+    background: rgba(102, 102, 102, 0.521) url(imagenes/i/error404_4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    // background-position: center;
+    background-blend-mode: darken;
+
+    .error404__mensaje {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        .error404__mensaje__h1 {
+            margin-top: 190px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .error404__mensaje__h2 {
+            font-size: 76px ;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .error404__mensaje__p {
+            margin-top: 350px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+            
+        }
+    }
+    
 }
 
 }
