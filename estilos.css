@@ -60,9 +60,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   margin-top: 15px;
 }
 
@@ -595,10 +595,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -609,7 +609,7 @@
     padding: 10px 5px;
   }
   .estudioFooter--flex .castetLogo--flex {
-    width: 80%;
+    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -623,13 +623,14 @@
   }
   .estudioFooter--flex .castetLogo--flex .logo--flex {
     width: 20%;
+    height: 45px;
   }
   .estudioFooter--flex .castetLogo--flex .logo--flex .logo__letras {
-    font-size: 19px;
+    font-size: 17px;
     margin: 0px auto;
   }
   .estudioFooter--flex .castetLogo--flex .legend--flex {
-    width: 80%;
+    width: 70%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -652,10 +653,10 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    font-size: 9.5px;
+    font-size: 9px;
   }
   .logosRedes {
-    width: 80%;
+    width: 20%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -663,15 +664,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin: 0px auto;
+    margin-left: 25px;
     text-align: center;
   }
   i {
     color: silver;
-    font-size: 60px;
+    font-size: 32px;
   }
   .mainEstudio {
     background-image: -webkit-gradient(linear, left bottom, left top, from(black), to(grEy));
