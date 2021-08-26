@@ -130,10 +130,20 @@
 
 @media only screen and (min-width: 300px) and (max-width: 475px) {
   .navbar {
-    width: 100%;
+    width: 99%;
+  }
+  .navbar-nav {
+    width: 99%;
+    margin: 0px auto;
+    margin-top: 1px;
+    margin-left: 1.5%;
+  }
+  .navbar-nav > .nav-item {
+    padding-left: 1%;
+    text-align: left;
   }
   .carousel {
-    height: 350px;
+    height: 250px;
     width: 100%;
   }
   .carousel-inner {
@@ -238,7 +248,7 @@
   }
   .contenedor1 .contenedor1__item3 .contenedor1__item3__div1 {
     width: 100%;
-    height: 500px;
+    height: 350px;
   }
   .contenedor1 .contenedor1__item3 .contenedor1__item3__div1 .contenedor1__item3__div1__imgAm {
     width: 100%;
@@ -262,7 +272,7 @@
   }
   .contenedor2 .contenedor2__div {
     width: 100%;
-    height: 246px;
+    height: 316px;
   }
   .contenedor2 .contenedor2__div .contenedor2__div__h3 {
     width: 90%;
@@ -432,6 +442,7 @@
     font-weight: 500;
     text-transform: uppercase;
     text-align: left;
+    font-size: 18px;
   }
   .aside__inicio .prueba .prueba__div .prueba__img {
     width: 100%;
@@ -482,11 +493,7 @@
     padding: 5px;
     margin: 0px auto;
     margin-top: 10px;
-    background-color: rgba(206, 176, 133, 0.493);
-    background-color: rgba(202, 179, 146, 0.61);
-    background-color: rgba(151, 142, 129, 0.61);
     background-color: rgba(88, 88, 88, 0.61);
-    color: #fdfded;
     color: white;
     border-radius: 5px;
     text-decoration: none;
@@ -672,14 +679,14 @@
     border-bottom: 1px solid black;
   }
   .bannerEstudio::before {
-    height: 43vh;
+    height: 33vh;
     width: 100%;
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
   }
   .bannerEstudio > img {
-    height: 43vh;
+    height: 33vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
     margin: 0px auto;
@@ -695,7 +702,7 @@
     width: 99.9%;
     height: 60px;
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 14vh;
   }
   .bannerGradientEstudio h2 {
     font-size: 40px;
@@ -747,7 +754,7 @@
     text-align: justify;
   }
   .estudioParrafos img {
-    height: 300px;
+    height: 200px;
     border-radius: 10px #d8d8d8;
     margin-bottom: 50px;
   }
@@ -766,14 +773,14 @@
     background-image: linear-gradient(to top, black, #363636, gray);
   }
   .banner::before {
-    height: 43vh;
+    height: 33vh;
     width: 99.9%;
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
   }
   .banner > img {
-    height: 43vh;
+    height: 33vh;
     width: 99.9%;
     background: rgba(0, 0, 0, 0.7);
     margin: 0px auto;
@@ -789,7 +796,7 @@
     width: 99.9%;
     height: 60px;
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 14vh;
   }
   .bannerGradient h2 {
     font-size: 40px;
@@ -881,14 +888,14 @@
     visibility: visible;
   }
   .bannerServicios::before {
-    height: 43vh;
+    height: 33vh;
     width: 100%;
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
   }
   .bannerServicios > img {
-    height: 43vh;
+    height: 33vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
     margin: 0px auto;
@@ -905,7 +912,7 @@
     width: 99.9%;
     height: 60px;
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 14vh;
   }
   .bannerGradientServicios h2 {
     font-size: 40px;
@@ -936,7 +943,7 @@
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
+    font-size: 5 0px;
   }
   #diseño_arquitectonico--flex, #direccion_de_obra_ejecutiva--flex, #construccion_administracion--flex, #interior_designe--flex {
     display: -webkit-box;
@@ -980,7 +987,7 @@
   }
   #carouselDiseño, #carouselDireccion, #carouselConstruccion, #carouselDesigne {
     width: 90%;
-    height: 250px;
+    height: 200px;
     margin: 0px auto;
     margin-top: 20px;
     margin-bottom: 30px;
@@ -998,7 +1005,7 @@
     margin: 0px auto;
     margin-bottom: 35px;
     font-family: 'Roboto', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 200;
     color: #dfdbca;
   }
@@ -1008,7 +1015,7 @@
     margin-bottom: 15px;
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #dfdfdf;
   }
   .arquitectonico1--width .arquitectonico1__p, .arquitectonico1--width .ejecutiva1__p, .arquitectonico1--width .construccion1__p, .arquitectonico1--width .designe1__p, .ejecutiva1--width .arquitectonico1__p, .ejecutiva1--width .ejecutiva1__p, .ejecutiva1--width .construccion1__p, .ejecutiva1--width .designe1__p, .construccion1--width .arquitectonico1__p, .construccion1--width .ejecutiva1__p, .construccion1--width .construccion1__p, .construccion1--width .designe1__p, .designe1--width .arquitectonico1__p, .designe1--width .ejecutiva1__p, .designe1--width .construccion1__p, .designe1--width .designe1__p {
@@ -1027,14 +1034,14 @@
     color: silver;
   }
   .bannerContacto::before {
-    height: 43vh;
+    height: 33vh;
     width: 100%;
     content: '';
     position: absolute;
     background: rgba(0, 0, 0, 0.3);
   }
   .bannerContacto > img {
-    height: 43vh;
+    height: 33vh;
     width: 100%;
     background: rgba(0, 0, 0, 0.7);
     margin: 0px auto;
@@ -1050,7 +1057,7 @@
     width: 99.9%;
     height: 60px;
     text-align: center;
-    margin-top: 18vh;
+    margin-top: 14vh;
   }
   .bannerGradientContacto h2 {
     font-size: 40px;
@@ -4311,8 +4318,8 @@
     margin-bottom: 50px;
   }
   #carouselEstudio {
-    width: 100%;
-    height: 550px;
+    width: 60%;
+    height: 450px;
     margin: 0 auto;
     margin-top: 50px;
   }
