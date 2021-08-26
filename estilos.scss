@@ -850,6 +850,118 @@
         opacity: 1;
         visibility: visible;
     }
+
+    // --------------------- links proyetos --------------------------
+
+.proyecto_house {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+    background-color:white;
+    
+    .proyecto_house__img {
+        width: 90%;
+        margin: auto;
+    }
+
+    .proyecto_house__info {
+        width: 90%;
+        margin: 0px auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        
+        
+        .proyecto_house__info__h1 {
+            text-transform: uppercase;
+            font-size: 22px;
+            font-family:'Roboto', sans-serif; 
+            text-align: center;
+            
+        }
+
+        .proyecto_house__info__icons {
+            width: 70%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            text-align: center;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 0px auto;
+            
+            .icon_1, .icon_2, .icon_3 {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                
+                height: 60px;
+
+                span {
+                    color: black;
+                    font-size: 14px;
+                }
+            }
+
+            i {
+                color: gray;
+                font-size: 22px;
+            }
+            
+        }
+
+        .proyecto_house__info__p {
+            text-align: justify;
+            
+        }
+    }
+}
+
+// ------------------------- PAGINA ERROR 404 ----------------------
+.error404 {
+    width: 100%;
+    height: 770px;
+    margin-top: 60px;
+    background: rgba(66, 66, 66, 0.678) url(imagenes/i/error404_4.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    background-blend-mode: darken;
+
+    .error404__mensaje {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        .error404__mensaje__h1 {
+            margin-top: 170px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 46px;
+            font-weight: 700;
+        }
+
+        .error404__mensaje__h2 {
+            font-size: 56px ;
+            color: white;
+            text-transform: uppercase;
+        }
+
+        .error404__mensaje__p {
+            margin-top: 180px;
+            color: rgb(255, 217, 0);
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: 700;
+            
+        }
+    }
+    
+}
     
     // --------------------------- PAGINA SERVICIOS ------------------------------
     .bannerServicios::before {
@@ -2364,9 +2476,9 @@ span {
 // ------------------------- PAGINA ERROR 404 ----------------------
 .error404 {
     width: 100%;
-    height: 600px;
+    height: 770px;
     margin-top: 60px;
-    background: rgba(102, 102, 102, 0.562) url(imagenes/i/error404_4.jpg);
+    background: rgba(58, 58, 58, 0.562) url(imagenes/i/error404_4.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -3579,9 +3691,9 @@ span {
 
 .error404 {
     width: 100%;
-    height: 600px;
+    height: 770px;
     margin-top: 60px;
-    background: rgba(102, 102, 102, 0.308) url(imagenes/i/error404_4.jpg);
+    background: rgba(70, 70, 70, 0.568) url(imagenes/i/error404_4.jpg);
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -3592,7 +3704,6 @@ span {
 
         display: flex;
         flex-direction: column;
-        
         text-align: center;
         
         .error404__mensaje__h1 {
@@ -4811,7 +4922,7 @@ span {
 
 .error404 {
     width: 100%;
-    height: 750px;
+    height: 780px;
     margin-top: 49px;
     background: rgba(102, 102, 102, 0.521) url(imagenes/i/error404_4.jpg);
     background-size: cover;
