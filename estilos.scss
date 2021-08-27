@@ -110,8 +110,9 @@
     
     .navbar {
         width: 99%;
+        
     }
-
+    
     .navbar-nav {
         width: 99%;
         margin: 0px auto;
@@ -1347,6 +1348,7 @@
 
 @media only screen and (min-width: 476px) and (max-width: 768px) {
 
+
 .navbar {
     width: 100%;
 }
@@ -1766,7 +1768,7 @@ main {
     .imgLadrillo {
         height: 500px;
         width: 100%;
-        background: rgba(0,0,0, 0.3) url(imagenes/i/bannerCastet.jpeg);
+        background: rgba(0,0,0, 0.3) url(imagenes/i/bannerCastet.jpg);
         background-size: cover;
         background-position: center;
         display: flex;
