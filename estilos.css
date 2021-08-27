@@ -376,6 +376,7 @@
     width: 100%;
     background-color: rgba(83, 82, 78, 0.836);
     background-color: rgba(100, 97, 95, 0.836);
+    padding-top: 20px;
   }
   .aside__inicio .bannerGradientInicio {
     background: linear-gradient(100deg, rgba(39, 38, 38, 0.514) 25%, rgba(161, 161, 157, 0.705) 50%, rgba(39, 38, 38, 0.514) 75%);
